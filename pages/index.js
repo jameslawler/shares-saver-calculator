@@ -29,7 +29,7 @@ const Home = () => {
         <div className="calculationSettings">
           <label>Monthly Contribution:</label>
           <input type="number" value={monthlyDeposit} onChange={(event) => setMonthlyDeposit(event.target.value)} />
-          <button onClick={() => setCalculations(calculatorService.calculate(data.asx, monthlyDeposit))}>
+          <button onClick={() => setCalculations(calculatorService.calculate(data.asx, parseInt(monthlyDeposit, 10)))}>
             Calculate
           </button>
         </div>
