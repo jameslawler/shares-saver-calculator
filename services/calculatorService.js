@@ -25,6 +25,7 @@ const calculate = (fund, monthlyContribution) => {
       calculations.push({
         type: 'dividend',
         date,
+        shareAmount: amount,
         shareChange: dividendShares,
         totalShares,
         totalDeposited,
@@ -37,6 +38,7 @@ const calculate = (fund, monthlyContribution) => {
       calculations.push({
         type: 'shares',
         date,
+        shareAmount: amount,
         shareChange: sharesToBuy,
         totalShares,
         totalDeposited,
@@ -51,6 +53,7 @@ const calculate = (fund, monthlyContribution) => {
       calculations.push({
         type: 'management',
         date,
+        shareAmount: amount,
         shareChange: 0 - managementFee,
         totalShares,
         totalDeposited,
