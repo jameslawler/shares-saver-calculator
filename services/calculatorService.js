@@ -13,7 +13,7 @@ const calculate = (fund, monthlyContribution) => {
     const amount = price[1];
     const sharesToBuy = monthlyDeposit / amount;
   
-    totalDeposited += monthlyDeposit;
+    totalDeposited += monthlyContribution;
     totalShares += sharesToBuy;
   
     const dividend = getDividend(dividends, price[0]);

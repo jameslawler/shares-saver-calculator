@@ -48,7 +48,7 @@ const Home = () => {
             <tr className={calculation.type}>
               <td>{calculation.date.toISOString().substr(0, 10)}</td>
               <td>{calculation.type}{calculation.type === 'shares' ? ` @ ${calculation.shareAmount} euros` : ''}</td>
-              <td>{numberWithCommas(calculation.shareChange.toFixed(2))}</td>
+              <td>{calculation.shareChange > 0 ? '+' : ''}{numberWithCommas(calculation.shareChange.toFixed(2))}</td>
               <td>{numberWithCommas(calculation.totalShares.toFixed(2))}</td>
               <td>{numberWithCommas(calculation.totalDeposited.toFixed(2))} euros</td>
               <td>{numberWithCommas(calculation.worth.toFixed(2))} euros</td>
