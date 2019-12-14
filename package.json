@@ -1,0 +1,22 @@
+{
+  "name": "shares-saver-calculator",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "deploy": "rimraf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && gh-pages -d out"
+  },
+  "dependencies": {
+    "next": "9.1.5",
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1",
+    "rimraf": "^3.0.0",
+    "touch-for-windows": "^1.0.0"
+  }
+}
