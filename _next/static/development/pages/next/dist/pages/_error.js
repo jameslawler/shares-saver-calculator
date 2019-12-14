@@ -1,40 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
-
-/***/ "./data/asx.js":
-/*!*********************!*\
-  !*** ./data/asx.js ***!
-  \*********************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ({
-  name: 'S&P/ASX 200 ETF',
-  entryFee: 1.5,
-  totalExpenseRatio: 0.5,
-  prices: [[Date.UTC(2008, 1, 1), 22.49], [Date.UTC(2008, 2, 1), 21.97], [Date.UTC(2008, 3, 1), 20.04], [Date.UTC(2008, 4, 1), 21.63], [Date.UTC(2008, 5, 1), 22.54], [Date.UTC(2008, 6, 1), 20.16], [Date.UTC(2008, 7, 1), 19.07], [Date.UTC(2008, 8, 1), 19.56], [Date.UTC(2008, 9, 1), 17.84], [Date.UTC(2008, 10, 1), 13.72], [Date.UTC(2008, 11, 1), 12.4], [Date.UTC(2009, 0, 1), 12.18], [Date.UTC(2009, 1, 1), 11.67], [Date.UTC(2009, 2, 1), 11.26], [Date.UTC(2009, 3, 1), 12.66], [Date.UTC(2009, 4, 1), 14.02], [Date.UTC(2009, 5, 1), 15.02], [Date.UTC(2009, 6, 1), 15.05], [Date.UTC(2009, 7, 1), 16.89], [Date.UTC(2009, 8, 1), 18.11], [Date.UTC(2009, 9, 1), 19.54], [Date.UTC(2009, 10, 1), 19.61], [Date.UTC(2009, 11, 1), 19.93], [Date.UTC(2010, 0, 1), 21.03], [Date.UTC(2010, 1, 1), 19.85], [Date.UTC(2010, 2, 1), 21.62], [Date.UTC(2010, 3, 1), 23.37], [Date.UTC(2010, 4, 1), 23.51], [Date.UTC(2010, 5, 1), 21.2], [Date.UTC(2010, 6, 1), 20.2], [Date.UTC(2010, 7, 1), 21.84], [Date.UTC(2010, 8, 1), 22.54], [Date.UTC(2010, 9, 1), 23.11], [Date.UTC(2010, 10, 1), 23.76], [Date.UTC(2010, 11, 1), 24.13], [Date.UTC(2011, 0, 1), 25.91], [Date.UTC(2011, 1, 1), 24.96], [Date.UTC(2011, 2, 1), 25.67], [Date.UTC(2011, 3, 1), 25.83], [Date.UTC(2011, 4, 1), 25.79], [Date.UTC(2011, 5, 1), 25.55], [Date.UTC(2011, 6, 1), 24.78], [Date.UTC(2011, 7, 1), 25.16], [Date.UTC(2011, 8, 1), 23.79], [Date.UTC(2011, 9, 1), 21.4], [Date.UTC(2011, 10, 1), 23.41], [Date.UTC(2011, 11, 1), 23.92], [Date.UTC(2012, 0, 1), 23.8], [Date.UTC(2012, 1, 1), 25.61], [Date.UTC(2012, 2, 1), 25.98], [Date.UTC(2012, 3, 1), 25.55], [Date.UTC(2012, 4, 1), 26.13], [Date.UTC(2012, 5, 1), 24.22], [Date.UTC(2012, 6, 1), 25.3], [Date.UTC(2012, 7, 1), 27.79], [Date.UTC(2012, 8, 1), 27.23], [Date.UTC(2012, 9, 1), 27.31], [Date.UTC(2012, 10, 1), 27.91], [Date.UTC(2012, 11, 1), 28.13], [Date.UTC(2013, 0, 1), 28.53], [Date.UTC(2013, 1, 1), 29.21], [Date.UTC(2013, 2, 1), 31.34], [Date.UTC(2013, 3, 1), 32.03], [Date.UTC(2013, 4, 1), 32.13], [Date.UTC(2013, 5, 1), 28.85], [Date.UTC(2013, 6, 1), 26.36], [Date.UTC(2013, 7, 1), 27.27], [Date.UTC(2013, 8, 1), 27.73], [Date.UTC(2013, 9, 1), 29.11], [Date.UTC(2013, 10, 1), 30.53], [Date.UTC(2013, 11, 1), 28.82], [Date.UTC(2014, 0, 1), 28.02], [Date.UTC(2014, 1, 1), 27.09], [Date.UTC(2014, 2, 1), 28.61], [Date.UTC(2014, 3, 1), 29.59], [Date.UTC(2014, 4, 1), 30.2], [Date.UTC(2014, 5, 1), 30.92], [Date.UTC(2014, 6, 1), 30.66], [Date.UTC(2014, 7, 1), 31.78], [Date.UTC(2014, 8, 1), 33.3], [Date.UTC(2014, 9, 1), 30.75], [Date.UTC(2014, 10, 1), 32.4], [Date.UTC(2014, 11, 1), 29.82], [Date.UTC(2015, 0, 1), 30.68], [Date.UTC(2015, 1, 1), 32.32], [Date.UTC(2015, 2, 1), 34.95], [Date.UTC(2015, 3, 1), 35.24], [Date.UTC(2015, 4, 1), 34.59], [Date.UTC(2015, 5, 1), 34.23], [Date.UTC(2015, 6, 1), 32.68], [Date.UTC(2015, 7, 1), 32.23], [Date.UTC(2015, 8, 1), 27.6], [Date.UTC(2015, 9, 1), 28.15], [Date.UTC(2015, 10, 1), 29.28], [Date.UTC(2015, 11, 1), 31.68], [Date.UTC(2016, 0, 1), 31.11], [Date.UTC(2016, 1, 1), 28.7], [Date.UTC(2016, 2, 1), 28.61], [Date.UTC(2016, 3, 1), 29.76], [Date.UTC(2016, 4, 1), 31.14], [Date.UTC(2016, 5, 1), 30.89], [Date.UTC(2016, 6, 1), 31.47], [Date.UTC(2016, 7, 1), 33.8], [Date.UTC(2016, 8, 1), 32.92], [Date.UTC(2016, 9, 1), 33.49], [Date.UTC(2016, 10, 1), 32.84], [Date.UTC(2016, 11, 1), 34.75], [Date.UTC(2017, 0, 1), 35.29], [Date.UTC(2017, 1, 1), 36.12], [Date.UTC(2017, 2, 1), 37.97], [Date.UTC(2017, 3, 1), 38.58], [Date.UTC(2017, 4, 1), 37.46], [Date.UTC(2017, 5, 1), 34.97], [Date.UTC(2017, 6, 1), 35.68], [Date.UTC(2017, 7, 1), 36.07], [Date.UTC(2017, 8, 1), 35.58], [Date.UTC(2017, 9, 1), 35.36], [Date.UTC(2017, 10, 1), 36.89], [Date.UTC(2017, 11, 1), 36], [Date.UTC(2018, 0, 1), 37.37], [Date.UTC(2018, 1, 1), 36.91], [Date.UTC(2018, 2, 1), 36.1], [Date.UTC(2018, 3, 1), 34.31], [Date.UTC(2018, 4, 1), 35.67], [Date.UTC(2018, 5, 1), 37.12], [Date.UTC(2018, 6, 1), 37.72], [Date.UTC(2018, 7, 1), 38.25], [Date.UTC(2018, 8, 1), 37.93], [Date.UTC(2018, 9, 1), 37.37], [Date.UTC(2018, 10, 1), 35.75], [Date.UTC(2018, 11, 1), 35.63], [Date.UTC(2019, 0, 1), 34.16], [Date.UTC(2019, 1, 1), 36.36], [Date.UTC(2019, 2, 1), 38.2], [Date.UTC(2019, 3, 1), 39.08], [Date.UTC(2019, 4, 1), 39.43], [Date.UTC(2019, 5, 1), 39.52], [Date.UTC(2019, 6, 1), 40.89], [Date.UTC(2019, 7, 1), 41.97], [Date.UTC(2019, 8, 1), 40.47], [Date.UTC(2019, 9, 1), 41.85], [Date.UTC(2019, 10, 1), 41.73], [Date.UTC(2019, 11, 1), 42.8]],
-  dividends: [[Date.UTC(2016, 3, 1), 1.36], [Date.UTC(2017, 3, 1), 1.25], [Date.UTC(2018, 3, 1), 1.09], [Date.UTC(2019, 3, 1), 1.33]]
-});
-
-/***/ }),
-
-/***/ "./data/index.js":
-/*!***********************!*\
-  !*** ./data/index.js ***!
-  \***********************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _asx__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./asx */ "./data/asx.js");
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  asx: _asx__WEBPACK_IMPORTED_MODULE_0__["default"]
-});
-
-/***/ }),
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\next\\dist\\pages\\_error.js"],{
 
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/array/from.js":
 /*!*******************************************************************!*\
@@ -284,6 +248,23 @@ function _inherits(subClass, superClass) {
 }
 
 module.exports = _inherits;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    "default": obj
+  };
+}
+
+module.exports = _interopRequireDefault;
 
 /***/ }),
 
@@ -3140,21 +3121,21 @@ for (var i = 0; i < DOMIterables.length; i++) {
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CMy%20Projects%5Cshares-saver-calculator%5Cpages%5Cindex.js!./":
-/*!******************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CMy%20Projects%5Cshares-saver-calculator%5Cpages%5Cindex.js ***!
-  \******************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=D%3A%5CMy%20Projects%5Cshares-saver-calculator%5Cnode_modules%5Cnext%5Cdist%5Cpages%5C_error.js!./":
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=D%3A%5CMy%20Projects%5Cshares-saver-calculator%5Cnode_modules%5Cnext%5Cdist%5Cpages%5C_error.js ***!
+  \****************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
-      var mod = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/next/dist/pages/_error", function() {
+      var mod = __webpack_require__(/*! ./node_modules/next/dist/pages/_error.js */ "./node_modules/next/dist/pages/_error.js")
       if(true) {
-        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
-          if(!next.router.components["/"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
-          next.router.update("/", updatedPage)
+        module.hot.accept(/*! ./node_modules/next/dist/pages/_error.js */ "./node_modules/next/dist/pages/_error.js", function() {
+          if(!next.router.components["/next/dist/pages/_error"]) return
+          var updatedPage = __webpack_require__(/*! ./node_modules/next/dist/pages/_error.js */ "./node_modules/next/dist/pages/_error.js")
+          next.router.update("/next/dist/pages/_error", updatedPage)
         })
       }
       return mod
@@ -3567,198 +3548,129 @@ exports["default"] = function () {
 
 /***/ }),
 
-/***/ "./node_modules/process/browser.js":
-/*!*****************************************!*\
-  !*** ./node_modules/process/browser.js ***!
-  \*****************************************/
+/***/ "./node_modules/next/dist/pages/_error.js":
+/*!************************************************!*\
+  !*** ./node_modules/next/dist/pages/_error.js ***!
+  \************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-// shim for using process in browser
-var process = module.exports = {};
-
-// cached from whatever global is present so that test runners that stub it
-// don't break things.  But we need to wrap it in a try catch in case it is
-// wrapped in strict mode code which doesn't define any globals.  It's inside a
-// function because try/catches deoptimize in certain engines.
-
-var cachedSetTimeout;
-var cachedClearTimeout;
-
-function defaultSetTimout() {
-    throw new Error('setTimeout has not been defined');
-}
-function defaultClearTimeout () {
-    throw new Error('clearTimeout has not been defined');
-}
-(function () {
-    try {
-        if (typeof setTimeout === 'function') {
-            cachedSetTimeout = setTimeout;
-        } else {
-            cachedSetTimeout = defaultSetTimout;
-        }
-    } catch (e) {
-        cachedSetTimeout = defaultSetTimout;
-    }
-    try {
-        if (typeof clearTimeout === 'function') {
-            cachedClearTimeout = clearTimeout;
-        } else {
-            cachedClearTimeout = defaultClearTimeout;
-        }
-    } catch (e) {
-        cachedClearTimeout = defaultClearTimeout;
-    }
-} ())
-function runTimeout(fun) {
-    if (cachedSetTimeout === setTimeout) {
-        //normal enviroments in sane situations
-        return setTimeout(fun, 0);
-    }
-    // if setTimeout wasn't available but was latter defined
-    if ((cachedSetTimeout === defaultSetTimout || !cachedSetTimeout) && setTimeout) {
-        cachedSetTimeout = setTimeout;
-        return setTimeout(fun, 0);
-    }
-    try {
-        // when when somebody has screwed with setTimeout but no I.E. maddness
-        return cachedSetTimeout(fun, 0);
-    } catch(e){
-        try {
-            // When we are in I.E. but the script has been evaled so I.E. doesn't trust the global object when called normally
-            return cachedSetTimeout.call(null, fun, 0);
-        } catch(e){
-            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error
-            return cachedSetTimeout.call(this, fun, 0);
-        }
-    }
+"use strict";
 
 
-}
-function runClearTimeout(marker) {
-    if (cachedClearTimeout === clearTimeout) {
-        //normal enviroments in sane situations
-        return clearTimeout(marker);
-    }
-    // if clearTimeout wasn't available but was latter defined
-    if ((cachedClearTimeout === defaultClearTimeout || !cachedClearTimeout) && clearTimeout) {
-        cachedClearTimeout = clearTimeout;
-        return clearTimeout(marker);
-    }
-    try {
-        // when when somebody has screwed with setTimeout but no I.E. maddness
-        return cachedClearTimeout(marker);
-    } catch (e){
-        try {
-            // When we are in I.E. but the script has been evaled so I.E. doesn't  trust the global object when called normally
-            return cachedClearTimeout.call(null, marker);
-        } catch (e){
-            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error.
-            // Some versions of I.E. have different rules for clearTimeout vs setTimeout
-            return cachedClearTimeout.call(this, marker);
-        }
-    }
+var _classCallCheck = __webpack_require__(/*! @babel/runtime-corejs2/helpers/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js");
 
+var _createClass = __webpack_require__(/*! @babel/runtime-corejs2/helpers/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/createClass.js");
 
+var _possibleConstructorReturn = __webpack_require__(/*! @babel/runtime-corejs2/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/possibleConstructorReturn.js");
 
-}
-var queue = [];
-var draining = false;
-var currentQueue;
-var queueIndex = -1;
+var _getPrototypeOf = __webpack_require__(/*! @babel/runtime-corejs2/helpers/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/getPrototypeOf.js");
 
-function cleanUpNextTick() {
-    if (!draining || !currentQueue) {
-        return;
-    }
-    draining = false;
-    if (currentQueue.length) {
-        queue = currentQueue.concat(queue);
-    } else {
-        queueIndex = -1;
-    }
-    if (queue.length) {
-        drainQueue();
-    }
-}
+var _inherits = __webpack_require__(/*! @babel/runtime-corejs2/helpers/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/inherits.js");
 
-function drainQueue() {
-    if (draining) {
-        return;
-    }
-    var timeout = runTimeout(cleanUpNextTick);
-    draining = true;
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
 
-    var len = queue.length;
-    while(len) {
-        currentQueue = queue;
-        queue = [];
-        while (++queueIndex < len) {
-            if (currentQueue) {
-                currentQueue[queueIndex].run();
-            }
-        }
-        queueIndex = -1;
-        len = queue.length;
-    }
-    currentQueue = null;
-    draining = false;
-    runClearTimeout(timeout);
-}
+exports.__esModule = true;
+exports["default"] = void 0;
 
-process.nextTick = function (fun) {
-    var args = new Array(arguments.length - 1);
-    if (arguments.length > 1) {
-        for (var i = 1; i < arguments.length; i++) {
-            args[i - 1] = arguments[i];
-        }
-    }
-    queue.push(new Item(fun, args));
-    if (queue.length === 1 && !draining) {
-        runTimeout(drainQueue);
-    }
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _head = _interopRequireDefault(__webpack_require__(/*! ../next-server/lib/head */ "./node_modules/next/dist/next-server/lib/head.js"));
+
+var statusCodes = {
+  400: 'Bad Request',
+  404: 'This page could not be found',
+  405: 'Method Not Allowed',
+  500: 'Internal Server Error'
 };
+/**
+* `Error` component used for handling errors.
+*/
 
-// v8 likes predictible objects
-function Item(fun, array) {
-    this.fun = fun;
-    this.array = array;
-}
-Item.prototype.run = function () {
-    this.fun.apply(null, this.array);
+var Error =
+/*#__PURE__*/
+function (_react$default$Compon) {
+  _inherits(Error, _react$default$Compon);
+
+  function Error() {
+    _classCallCheck(this, Error);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(Error).apply(this, arguments));
+  }
+
+  _createClass(Error, [{
+    key: "render",
+    value: function render() {
+      var statusCode = this.props.statusCode;
+      var title = this.props.title || statusCodes[statusCode] || 'An unexpected error has occurred';
+      return _react["default"].createElement("div", {
+        style: styles.error
+      }, _react["default"].createElement(_head["default"], null, _react["default"].createElement("title", null, statusCode, ": ", title)), _react["default"].createElement("div", null, _react["default"].createElement("style", {
+        dangerouslySetInnerHTML: {
+          __html: 'body { margin: 0 }'
+        }
+      }), statusCode ? _react["default"].createElement("h1", {
+        style: styles.h1
+      }, statusCode) : null, _react["default"].createElement("div", {
+        style: styles.desc
+      }, _react["default"].createElement("h2", {
+        style: styles.h2
+      }, title, "."))));
+    }
+  }], [{
+    key: "getInitialProps",
+    value: function getInitialProps(_ref) {
+      var res = _ref.res,
+          err = _ref.err;
+      var statusCode = res && res.statusCode ? res.statusCode : err ? err.statusCode : 404;
+      return {
+        statusCode: statusCode
+      };
+    }
+  }]);
+
+  return Error;
+}(_react["default"].Component);
+
+exports["default"] = Error;
+Error.displayName = 'ErrorPage';
+var styles = {
+  error: {
+    color: '#000',
+    background: '#fff',
+    fontFamily: '-apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Fira Sans", Avenir, "Helvetica Neue", "Lucida Grande", sans-serif',
+    height: '100vh',
+    textAlign: 'center',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
+  desc: {
+    display: 'inline-block',
+    textAlign: 'left',
+    lineHeight: '49px',
+    height: '49px',
+    verticalAlign: 'middle'
+  },
+  h1: {
+    display: 'inline-block',
+    borderRight: '1px solid rgba(0, 0, 0,.3)',
+    margin: 0,
+    marginRight: '20px',
+    padding: '10px 23px 10px 0',
+    fontSize: '24px',
+    fontWeight: 500,
+    verticalAlign: 'top'
+  },
+  h2: {
+    fontSize: '14px',
+    fontWeight: 'normal',
+    lineHeight: 'inherit',
+    margin: 0,
+    padding: 0
+  }
 };
-process.title = 'browser';
-process.browser = true;
-process.env = {};
-process.argv = [];
-process.version = ''; // empty string to avoid regexp issues
-process.versions = {};
-
-function noop() {}
-
-process.on = noop;
-process.addListener = noop;
-process.once = noop;
-process.off = noop;
-process.removeListener = noop;
-process.removeAllListeners = noop;
-process.emit = noop;
-process.prependListener = noop;
-process.prependOnceListener = noop;
-
-process.listeners = function (name) { return [] }
-
-process.binding = function (name) {
-    throw new Error('process.binding is not supported');
-};
-
-process.cwd = function () { return '/' };
-process.chdir = function (dir) {
-    throw new Error('process.chdir is not supported');
-};
-process.umask = function() { return 0; };
-
 
 /***/ }),
 
@@ -3773,1117 +3685,14 @@ module.exports = (__webpack_require__(/*! dll-reference dll_5f137288facb1107b491
 
 /***/ }),
 
-/***/ "./node_modules/string-hash/index.js":
-/*!*******************************************!*\
-  !*** ./node_modules/string-hash/index.js ***!
-  \*******************************************/
+/***/ 1:
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=D%3A%5CMy%20Projects%5Cshares-saver-calculator%5Cnode_modules%5Cnext%5Cdist%5Cpages%5C_error.js ***!
+  \********************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-
-
-function hash(str) {
-  var hash = 5381,
-      i    = str.length;
-
-  while(i) {
-    hash = (hash * 33) ^ str.charCodeAt(--i);
-  }
-
-  /* JavaScript does bitwise operations (like XOR, above) on 32-bit signed
-   * integers. Since we want the results to be always positive, convert the
-   * signed int to an unsigned by doing an unsigned bitshift. */
-  return hash >>> 0;
-}
-
-module.exports = hash;
-
-
-/***/ }),
-
-/***/ "./node_modules/styled-jsx/dist/lib/stylesheet.js":
-/*!********************************************************!*\
-  !*** ./node_modules/styled-jsx/dist/lib/stylesheet.js ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(process) {
-
-exports.__esModule = true;
-exports["default"] = void 0;
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-/*
-Based on Glamor's sheet
-https://github.com/threepointone/glamor/blob/667b480d31b3721a905021b26e1290ce92ca2879/src/sheet.js
-*/
-var isProd = typeof process !== 'undefined' && process.env && "development" === 'production';
-
-var isString = function isString(o) {
-  return Object.prototype.toString.call(o) === '[object String]';
-};
-
-var StyleSheet =
-/*#__PURE__*/
-function () {
-  function StyleSheet(_temp) {
-    var _ref = _temp === void 0 ? {} : _temp,
-        _ref$name = _ref.name,
-        name = _ref$name === void 0 ? 'stylesheet' : _ref$name,
-        _ref$optimizeForSpeed = _ref.optimizeForSpeed,
-        optimizeForSpeed = _ref$optimizeForSpeed === void 0 ? isProd : _ref$optimizeForSpeed,
-        _ref$isBrowser = _ref.isBrowser,
-        isBrowser = _ref$isBrowser === void 0 ? typeof window !== 'undefined' : _ref$isBrowser;
-
-    invariant(isString(name), '`name` must be a string');
-    this._name = name;
-    this._deletedRulePlaceholder = "#" + name + "-deleted-rule____{}";
-    invariant(typeof optimizeForSpeed === 'boolean', '`optimizeForSpeed` must be a boolean');
-    this._optimizeForSpeed = optimizeForSpeed;
-    this._isBrowser = isBrowser;
-    this._serverSheet = undefined;
-    this._tags = [];
-    this._injected = false;
-    this._rulesCount = 0;
-    var node = this._isBrowser && document.querySelector('meta[property="csp-nonce"]');
-    this._nonce = node ? node.getAttribute('content') : null;
-  }
-
-  var _proto = StyleSheet.prototype;
-
-  _proto.setOptimizeForSpeed = function setOptimizeForSpeed(bool) {
-    invariant(typeof bool === 'boolean', '`setOptimizeForSpeed` accepts a boolean');
-    invariant(this._rulesCount === 0, 'optimizeForSpeed cannot be when rules have already been inserted');
-    this.flush();
-    this._optimizeForSpeed = bool;
-    this.inject();
-  };
-
-  _proto.isOptimizeForSpeed = function isOptimizeForSpeed() {
-    return this._optimizeForSpeed;
-  };
-
-  _proto.inject = function inject() {
-    var _this = this;
-
-    invariant(!this._injected, 'sheet already injected');
-    this._injected = true;
-
-    if (this._isBrowser && this._optimizeForSpeed) {
-      this._tags[0] = this.makeStyleTag(this._name);
-      this._optimizeForSpeed = 'insertRule' in this.getSheet();
-
-      if (!this._optimizeForSpeed) {
-        if (!isProd) {
-          console.warn('StyleSheet: optimizeForSpeed mode not supported falling back to standard mode.');
-        }
-
-        this.flush();
-        this._injected = true;
-      }
-
-      return;
-    }
-
-    this._serverSheet = {
-      cssRules: [],
-      insertRule: function insertRule(rule, index) {
-        if (typeof index === 'number') {
-          _this._serverSheet.cssRules[index] = {
-            cssText: rule
-          };
-        } else {
-          _this._serverSheet.cssRules.push({
-            cssText: rule
-          });
-        }
-
-        return index;
-      },
-      deleteRule: function deleteRule(index) {
-        _this._serverSheet.cssRules[index] = null;
-      }
-    };
-  };
-
-  _proto.getSheetForTag = function getSheetForTag(tag) {
-    if (tag.sheet) {
-      return tag.sheet;
-    } // this weirdness brought to you by firefox
-
-
-    for (var i = 0; i < document.styleSheets.length; i++) {
-      if (document.styleSheets[i].ownerNode === tag) {
-        return document.styleSheets[i];
-      }
-    }
-  };
-
-  _proto.getSheet = function getSheet() {
-    return this.getSheetForTag(this._tags[this._tags.length - 1]);
-  };
-
-  _proto.insertRule = function insertRule(rule, index) {
-    invariant(isString(rule), '`insertRule` accepts only strings');
-
-    if (!this._isBrowser) {
-      if (typeof index !== 'number') {
-        index = this._serverSheet.cssRules.length;
-      }
-
-      this._serverSheet.insertRule(rule, index);
-
-      return this._rulesCount++;
-    }
-
-    if (this._optimizeForSpeed) {
-      var sheet = this.getSheet();
-
-      if (typeof index !== 'number') {
-        index = sheet.cssRules.length;
-      } // this weirdness for perf, and chrome's weird bug
-      // https://stackoverflow.com/questions/20007992/chrome-suddenly-stopped-accepting-insertrule
-
-
-      try {
-        sheet.insertRule(rule, index);
-      } catch (error) {
-        if (!isProd) {
-          console.warn("StyleSheet: illegal rule: \n\n" + rule + "\n\nSee https://stackoverflow.com/q/20007992 for more info");
-        }
-
-        return -1;
-      }
-    } else {
-      var insertionPoint = this._tags[index];
-
-      this._tags.push(this.makeStyleTag(this._name, rule, insertionPoint));
-    }
-
-    return this._rulesCount++;
-  };
-
-  _proto.replaceRule = function replaceRule(index, rule) {
-    if (this._optimizeForSpeed || !this._isBrowser) {
-      var sheet = this._isBrowser ? this.getSheet() : this._serverSheet;
-
-      if (!rule.trim()) {
-        rule = this._deletedRulePlaceholder;
-      }
-
-      if (!sheet.cssRules[index]) {
-        // @TBD Should we throw an error?
-        return index;
-      }
-
-      sheet.deleteRule(index);
-
-      try {
-        sheet.insertRule(rule, index);
-      } catch (error) {
-        if (!isProd) {
-          console.warn("StyleSheet: illegal rule: \n\n" + rule + "\n\nSee https://stackoverflow.com/q/20007992 for more info");
-        } // In order to preserve the indices we insert a deleteRulePlaceholder
-
-
-        sheet.insertRule(this._deletedRulePlaceholder, index);
-      }
-    } else {
-      var tag = this._tags[index];
-      invariant(tag, "old rule at index `" + index + "` not found");
-      tag.textContent = rule;
-    }
-
-    return index;
-  };
-
-  _proto.deleteRule = function deleteRule(index) {
-    if (!this._isBrowser) {
-      this._serverSheet.deleteRule(index);
-
-      return;
-    }
-
-    if (this._optimizeForSpeed) {
-      this.replaceRule(index, '');
-    } else {
-      var tag = this._tags[index];
-      invariant(tag, "rule at index `" + index + "` not found");
-      tag.parentNode.removeChild(tag);
-      this._tags[index] = null;
-    }
-  };
-
-  _proto.flush = function flush() {
-    this._injected = false;
-    this._rulesCount = 0;
-
-    if (this._isBrowser) {
-      this._tags.forEach(function (tag) {
-        return tag && tag.parentNode.removeChild(tag);
-      });
-
-      this._tags = [];
-    } else {
-      // simpler on server
-      this._serverSheet.cssRules = [];
-    }
-  };
-
-  _proto.cssRules = function cssRules() {
-    var _this2 = this;
-
-    if (!this._isBrowser) {
-      return this._serverSheet.cssRules;
-    }
-
-    return this._tags.reduce(function (rules, tag) {
-      if (tag) {
-        rules = rules.concat(Array.prototype.map.call(_this2.getSheetForTag(tag).cssRules, function (rule) {
-          return rule.cssText === _this2._deletedRulePlaceholder ? null : rule;
-        }));
-      } else {
-        rules.push(null);
-      }
-
-      return rules;
-    }, []);
-  };
-
-  _proto.makeStyleTag = function makeStyleTag(name, cssString, relativeToTag) {
-    if (cssString) {
-      invariant(isString(cssString), 'makeStyleTag acceps only strings as second parameter');
-    }
-
-    var tag = document.createElement('style');
-    if (this._nonce) tag.setAttribute('nonce', this._nonce);
-    tag.type = 'text/css';
-    tag.setAttribute("data-" + name, '');
-
-    if (cssString) {
-      tag.appendChild(document.createTextNode(cssString));
-    }
-
-    var head = document.head || document.getElementsByTagName('head')[0];
-
-    if (relativeToTag) {
-      head.insertBefore(tag, relativeToTag);
-    } else {
-      head.appendChild(tag);
-    }
-
-    return tag;
-  };
-
-  _createClass(StyleSheet, [{
-    key: "length",
-    get: function get() {
-      return this._rulesCount;
-    }
-  }]);
-
-  return StyleSheet;
-}();
-
-exports["default"] = StyleSheet;
-
-function invariant(condition, message) {
-  if (!condition) {
-    throw new Error("StyleSheet: " + message + ".");
-  }
-}
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../process/browser.js */ "./node_modules/process/browser.js")))
-
-/***/ }),
-
-/***/ "./node_modules/styled-jsx/dist/style.js":
-/*!***********************************************!*\
-  !*** ./node_modules/styled-jsx/dist/style.js ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-exports.flush = flush;
-exports["default"] = void 0;
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _stylesheetRegistry = _interopRequireDefault(__webpack_require__(/*! ./stylesheet-registry */ "./node_modules/styled-jsx/dist/stylesheet-registry.js"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-
-function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
-
-var styleSheetRegistry = new _stylesheetRegistry["default"]();
-
-var JSXStyle =
-/*#__PURE__*/
-function (_Component) {
-  _inheritsLoose(JSXStyle, _Component);
-
-  function JSXStyle(props) {
-    var _this;
-
-    _this = _Component.call(this, props) || this;
-    _this.prevProps = {};
-    return _this;
-  }
-
-  JSXStyle.dynamic = function dynamic(info) {
-    return info.map(function (tagInfo) {
-      var baseId = tagInfo[0];
-      var props = tagInfo[1];
-      return styleSheetRegistry.computeId(baseId, props);
-    }).join(' ');
-  } // probably faster than PureComponent (shallowEqual)
-  ;
-
-  var _proto = JSXStyle.prototype;
-
-  _proto.shouldComponentUpdate = function shouldComponentUpdate(otherProps) {
-    return this.props.id !== otherProps.id || // We do this check because `dynamic` is an array of strings or undefined.
-    // These are the computed values for dynamic styles.
-    String(this.props.dynamic) !== String(otherProps.dynamic);
-  };
-
-  _proto.componentWillUnmount = function componentWillUnmount() {
-    styleSheetRegistry.remove(this.props);
-  };
-
-  _proto.render = function render() {
-    // This is a workaround to make the side effect async safe in the "render" phase.
-    // See https://github.com/zeit/styled-jsx/pull/484
-    if (this.shouldComponentUpdate(this.prevProps)) {
-      // Updates
-      if (this.prevProps.id) {
-        styleSheetRegistry.remove(this.prevProps);
-      }
-
-      styleSheetRegistry.add(this.props);
-      this.prevProps = this.props;
-    }
-
-    return null;
-  };
-
-  return JSXStyle;
-}(_react.Component);
-
-exports["default"] = JSXStyle;
-
-function flush() {
-  var cssRules = styleSheetRegistry.cssRules();
-  styleSheetRegistry.flush();
-  return cssRules;
-}
-
-/***/ }),
-
-/***/ "./node_modules/styled-jsx/dist/stylesheet-registry.js":
-/*!*************************************************************!*\
-  !*** ./node_modules/styled-jsx/dist/stylesheet-registry.js ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-exports["default"] = void 0;
-
-var _stringHash = _interopRequireDefault(__webpack_require__(/*! string-hash */ "./node_modules/string-hash/index.js"));
-
-var _stylesheet = _interopRequireDefault(__webpack_require__(/*! ./lib/stylesheet */ "./node_modules/styled-jsx/dist/lib/stylesheet.js"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-
-var sanitize = function sanitize(rule) {
-  return rule.replace(/\/style/gi, '\\/style');
-};
-
-var StyleSheetRegistry =
-/*#__PURE__*/
-function () {
-  function StyleSheetRegistry(_temp) {
-    var _ref = _temp === void 0 ? {} : _temp,
-        _ref$styleSheet = _ref.styleSheet,
-        styleSheet = _ref$styleSheet === void 0 ? null : _ref$styleSheet,
-        _ref$optimizeForSpeed = _ref.optimizeForSpeed,
-        optimizeForSpeed = _ref$optimizeForSpeed === void 0 ? false : _ref$optimizeForSpeed,
-        _ref$isBrowser = _ref.isBrowser,
-        isBrowser = _ref$isBrowser === void 0 ? typeof window !== 'undefined' : _ref$isBrowser;
-
-    this._sheet = styleSheet || new _stylesheet["default"]({
-      name: 'styled-jsx',
-      optimizeForSpeed: optimizeForSpeed
-    });
-
-    this._sheet.inject();
-
-    if (styleSheet && typeof optimizeForSpeed === 'boolean') {
-      this._sheet.setOptimizeForSpeed(optimizeForSpeed);
-
-      this._optimizeForSpeed = this._sheet.isOptimizeForSpeed();
-    }
-
-    this._isBrowser = isBrowser;
-    this._fromServer = undefined;
-    this._indices = {};
-    this._instancesCounts = {};
-    this.computeId = this.createComputeId();
-    this.computeSelector = this.createComputeSelector();
-  }
-
-  var _proto = StyleSheetRegistry.prototype;
-
-  _proto.add = function add(props) {
-    var _this = this;
-
-    if (undefined === this._optimizeForSpeed) {
-      this._optimizeForSpeed = Array.isArray(props.children);
-
-      this._sheet.setOptimizeForSpeed(this._optimizeForSpeed);
-
-      this._optimizeForSpeed = this._sheet.isOptimizeForSpeed();
-    }
-
-    if (this._isBrowser && !this._fromServer) {
-      this._fromServer = this.selectFromServer();
-      this._instancesCounts = Object.keys(this._fromServer).reduce(function (acc, tagName) {
-        acc[tagName] = 0;
-        return acc;
-      }, {});
-    }
-
-    var _this$getIdAndRules = this.getIdAndRules(props),
-        styleId = _this$getIdAndRules.styleId,
-        rules = _this$getIdAndRules.rules; // Deduping: just increase the instances count.
-
-
-    if (styleId in this._instancesCounts) {
-      this._instancesCounts[styleId] += 1;
-      return;
-    }
-
-    var indices = rules.map(function (rule) {
-      return _this._sheet.insertRule(rule);
-    }) // Filter out invalid rules
-    .filter(function (index) {
-      return index !== -1;
-    });
-    this._indices[styleId] = indices;
-    this._instancesCounts[styleId] = 1;
-  };
-
-  _proto.remove = function remove(props) {
-    var _this2 = this;
-
-    var _this$getIdAndRules2 = this.getIdAndRules(props),
-        styleId = _this$getIdAndRules2.styleId;
-
-    invariant(styleId in this._instancesCounts, "styleId: `" + styleId + "` not found");
-    this._instancesCounts[styleId] -= 1;
-
-    if (this._instancesCounts[styleId] < 1) {
-      var tagFromServer = this._fromServer && this._fromServer[styleId];
-
-      if (tagFromServer) {
-        tagFromServer.parentNode.removeChild(tagFromServer);
-        delete this._fromServer[styleId];
-      } else {
-        this._indices[styleId].forEach(function (index) {
-          return _this2._sheet.deleteRule(index);
-        });
-
-        delete this._indices[styleId];
-      }
-
-      delete this._instancesCounts[styleId];
-    }
-  };
-
-  _proto.update = function update(props, nextProps) {
-    this.add(nextProps);
-    this.remove(props);
-  };
-
-  _proto.flush = function flush() {
-    this._sheet.flush();
-
-    this._sheet.inject();
-
-    this._fromServer = undefined;
-    this._indices = {};
-    this._instancesCounts = {};
-    this.computeId = this.createComputeId();
-    this.computeSelector = this.createComputeSelector();
-  };
-
-  _proto.cssRules = function cssRules() {
-    var _this3 = this;
-
-    var fromServer = this._fromServer ? Object.keys(this._fromServer).map(function (styleId) {
-      return [styleId, _this3._fromServer[styleId]];
-    }) : [];
-
-    var cssRules = this._sheet.cssRules();
-
-    return fromServer.concat(Object.keys(this._indices).map(function (styleId) {
-      return [styleId, _this3._indices[styleId].map(function (index) {
-        return cssRules[index].cssText;
-      }).join(_this3._optimizeForSpeed ? '' : '\n')];
-    }) // filter out empty rules
-    .filter(function (rule) {
-      return Boolean(rule[1]);
-    }));
-  }
-  /**
-   * createComputeId
-   *
-   * Creates a function to compute and memoize a jsx id from a basedId and optionally props.
-   */
-  ;
-
-  _proto.createComputeId = function createComputeId() {
-    var cache = {};
-    return function (baseId, props) {
-      if (!props) {
-        return "jsx-" + baseId;
-      }
-
-      var propsToString = String(props);
-      var key = baseId + propsToString; // return `jsx-${hashString(`${baseId}-${propsToString}`)}`
-
-      if (!cache[key]) {
-        cache[key] = "jsx-" + (0, _stringHash["default"])(baseId + "-" + propsToString);
-      }
-
-      return cache[key];
-    };
-  }
-  /**
-   * createComputeSelector
-   *
-   * Creates a function to compute and memoize dynamic selectors.
-   */
-  ;
-
-  _proto.createComputeSelector = function createComputeSelector(selectoPlaceholderRegexp) {
-    if (selectoPlaceholderRegexp === void 0) {
-      selectoPlaceholderRegexp = /__jsx-style-dynamic-selector/g;
-    }
-
-    var cache = {};
-    return function (id, css) {
-      // Sanitize SSR-ed CSS.
-      // Client side code doesn't need to be sanitized since we use
-      // document.createTextNode (dev) and the CSSOM api sheet.insertRule (prod).
-      if (!this._isBrowser) {
-        css = sanitize(css);
-      }
-
-      var idcss = id + css;
-
-      if (!cache[idcss]) {
-        cache[idcss] = css.replace(selectoPlaceholderRegexp, id);
-      }
-
-      return cache[idcss];
-    };
-  };
-
-  _proto.getIdAndRules = function getIdAndRules(props) {
-    var _this4 = this;
-
-    var css = props.children,
-        dynamic = props.dynamic,
-        id = props.id;
-
-    if (dynamic) {
-      var styleId = this.computeId(id, dynamic);
-      return {
-        styleId: styleId,
-        rules: Array.isArray(css) ? css.map(function (rule) {
-          return _this4.computeSelector(styleId, rule);
-        }) : [this.computeSelector(styleId, css)]
-      };
-    }
-
-    return {
-      styleId: this.computeId(id),
-      rules: Array.isArray(css) ? css : [css]
-    };
-  }
-  /**
-   * selectFromServer
-   *
-   * Collects style tags from the document with id __jsx-XXX
-   */
-  ;
-
-  _proto.selectFromServer = function selectFromServer() {
-    var elements = Array.prototype.slice.call(document.querySelectorAll('[id^="__jsx-"]'));
-    return elements.reduce(function (acc, element) {
-      var id = element.id.slice(2);
-      acc[id] = element;
-      return acc;
-    }, {});
-  };
-
-  return StyleSheetRegistry;
-}();
-
-exports["default"] = StyleSheetRegistry;
-
-function invariant(condition, message) {
-  if (!condition) {
-    throw new Error("StyleSheetRegistry: " + message + ".");
-  }
-}
-
-/***/ }),
-
-/***/ "./node_modules/styled-jsx/style.js":
-/*!******************************************!*\
-  !*** ./node_modules/styled-jsx/style.js ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! ./dist/style */ "./node_modules/styled-jsx/dist/style.js")
-
-
-/***/ }),
-
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../data */ "./data/index.js");
-/* harmony import */ var _services_calculatorService__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../services/calculatorService */ "./services/calculatorService.js");
-var _jsxFileName = "D:\\My Projects\\shares-saver-calculator\\pages\\index.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-
-
-
-
-
-var numberWithCommas = function numberWithCommas(number) {
-  return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-};
-
-var Home = function Home() {
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(100),
-      monthlyDeposit = _useState[0],
-      setMonthlyDeposit = _useState[1];
-
-  var _useState2 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])([]),
-      calculations = _useState2[0],
-      setCalculations = _useState2[1];
-
-  return __jsx("div", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, __jsx("title", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, "Shares Saver Calculator"), __jsx("link", {
-    rel: "icon",
-    href: "/favicon.ico",
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  })), __jsx("div", {
-    className: "jsx-1517020032" + " " + "container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: this
-  }, __jsx("h1", {
-    className: "jsx-1517020032" + " " + "title",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, "Shares Saver Calculator"), __jsx("div", {
-    className: "jsx-1517020032" + " " + "detailsContainer",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, __jsx("span", {
-    className: "jsx-1517020032" + " " + "detailsHeadline",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, "Fund Details"), __jsx("div", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: this
-  }, __jsx("b", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: this
-  }, "Name: "), __jsx("span", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: this
-  }, _data__WEBPACK_IMPORTED_MODULE_3__["default"].asx.name)), __jsx("div", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }, __jsx("b", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }, "Entry Fee: "), __jsx("span", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }, _data__WEBPACK_IMPORTED_MODULE_3__["default"].asx.entryFee, "%")), __jsx("div", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: this
-  }, __jsx("b", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: this
-  }, "Management Fee: "), __jsx("span", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: this
-  }, _data__WEBPACK_IMPORTED_MODULE_3__["default"].asx.totalExpenseRatio, "% p.a"))), __jsx("div", {
-    className: "jsx-1517020032" + " " + "calculationSettings",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }, __jsx("label", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }, "Monthly Contribution:"), __jsx("input", {
-    type: "number",
-    value: monthlyDeposit,
-    onChange: function onChange(event) {
-      return setMonthlyDeposit(event.target.value);
-    },
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }), __jsx("button", {
-    onClick: function onClick() {
-      return setCalculations(_services_calculatorService__WEBPACK_IMPORTED_MODULE_4__["default"].calculate(_data__WEBPACK_IMPORTED_MODULE_3__["default"].asx, monthlyDeposit));
-    },
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }, "Calculate")), calculations.length > 0 && __jsx("table", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: this
-  }, __jsx("tr", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }, __jsx("th", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: this
-  }, "Date"), __jsx("th", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }, "Type"), __jsx("th", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    },
-    __self: this
-  }, "Shares Change"), __jsx("th", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
-  }, "Total Shares"), __jsx("th", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: this
-  }, "Total Deposited"), __jsx("th", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }, "Worth"), __jsx("th", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: this
-  }, "Growth")), calculations.map(function (calculation) {
-    return __jsx("tr", {
-      className: "jsx-1517020032" + " " + (calculation.type || ""),
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 48
-      },
-      __self: this
-    }, __jsx("td", {
-      className: "jsx-1517020032",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 49
-      },
-      __self: this
-    }, calculation.date.toISOString().substr(0, 10)), __jsx("td", {
-      className: "jsx-1517020032",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 50
-      },
-      __self: this
-    }, calculation.type, calculation.type === 'shares' ? " @ ".concat(calculation.shareAmount, " euros") : ''), __jsx("td", {
-      className: "jsx-1517020032",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 51
-      },
-      __self: this
-    }, calculation.shareChange > 0 ? '+' : '', numberWithCommas(calculation.shareChange.toFixed(2))), __jsx("td", {
-      className: "jsx-1517020032",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 52
-      },
-      __self: this
-    }, numberWithCommas(calculation.totalShares.toFixed(2))), __jsx("td", {
-      className: "jsx-1517020032",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 53
-      },
-      __self: this
-    }, numberWithCommas(calculation.totalDeposited.toFixed(2)), " euros"), __jsx("td", {
-      className: "jsx-1517020032",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 54
-      },
-      __self: this
-    }, numberWithCommas(calculation.worth.toFixed(2)), " euros"), __jsx("td", {
-      className: "jsx-1517020032" + " " + ((calculation.growth < 0 ? 'negative' : 'positive') || ""),
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 55
-      },
-      __self: this
-    }, calculation.growth.toFixed(2), "%"));
-  }))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "1517020032",
-    __self: this
-  }, ".container.jsx-1517020032{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;padding:40px;width:900px;color:#333;}.title.jsx-1517020032{margin:0;width:100%;line-height:1.15;font-size:48px;}.title.jsx-1517020032,.description.jsx-1517020032{text-align:center;}.detailsContainer.jsx-1517020032{-webkit-align-items:start;-webkit-box-align:start;-ms-flex-align:start;align-items:start;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}.detailsHeadline.jsx-1517020032{font-size:20px;font-weight:bold;padding:15px 0;}.calculationSettings.jsx-1517020032{padding:15px 0;}.calculationSettings.jsx-1517020032 label.jsx-1517020032{padding-right:10px;}.calculationSettings.jsx-1517020032 input.jsx-1517020032{margin-right:10px;}tr.jsx-1517020032:nth-child(even){background:#CCC;}tr.jsx-1517020032:nth-child(odd){background:#FFF;}tr.management.jsx-1517020032{background:red;}tr.dividend.jsx-1517020032{background:lightblue;}td.jsx-1517020032{padding:10px;}td.negative.jsx-1517020032{background:red;font-weight:bold;}td.positive.jsx-1517020032{background:green;color:white;font-weight:bold;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkQ6XFxNeSBQcm9qZWN0c1xcc2hhcmVzLXNhdmVyLWNhbGN1bGF0b3JcXHBhZ2VzXFxpbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE0RGtCLEFBR3dCLEFBT0osQUFPUyxBQUdBLEFBS0gsQUFLQSxBQUdJLEFBR0QsQUFFYyxBQUNELEFBRWhCLEFBR00sQUFHUixBQUdFLEFBSUUsU0EzQ04sSUFxQ2IsRUF0Qm1CLEFBS25CLEFBV0EsQUFTbUIsQ0FiZ0IsQUFDRCxDQWdCcEIsQ0FyQ2QsQUFtQkEsQ0FIQSxDQXRCbUIsQ0FpQ25CLFFBV21CLEdBN0JGLEFBeUJqQixLQXZDaUIsU0E0Q2pCLENBN0JBLEtBZEEsc0JBVndCLGVBaUJULCtEQWhCQSxXQWlCUyxFQWhCVixZQUNELFdBQ2IscURBZUEiLCJmaWxlIjoiRDpcXE15IFByb2plY3RzXFxzaGFyZXMtc2F2ZXItY2FsY3VsYXRvclxccGFnZXNcXGluZGV4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnO1xuaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJztcblxuaW1wb3J0IGRhdGEgZnJvbSAnLi4vZGF0YSc7XG5cbmltcG9ydCBjYWxjdWxhdG9yU2VydmljZSBmcm9tICcuLi9zZXJ2aWNlcy9jYWxjdWxhdG9yU2VydmljZSc7XG5cbmNvbnN0IG51bWJlcldpdGhDb21tYXMgPSAobnVtYmVyKSA9PiBudW1iZXIudG9TdHJpbmcoKS5yZXBsYWNlKC9cXEIoPz0oXFxkezN9KSsoPyFcXGQpKS9nLCBcIixcIik7XG5cbmNvbnN0IEhvbWUgPSAoKSA9PiB7XG4gIGNvbnN0IFttb250aGx5RGVwb3NpdCwgc2V0TW9udGhseURlcG9zaXRdID0gdXNlU3RhdGUoMTAwKTtcbiAgY29uc3QgW2NhbGN1bGF0aW9ucywgc2V0Q2FsY3VsYXRpb25zXSA9IHVzZVN0YXRlKFtdKTtcblxuICByZXR1cm4gKFxuICAgIDxkaXY+XG4gICAgICA8SGVhZD5cbiAgICAgICAgPHRpdGxlPlNoYXJlcyBTYXZlciBDYWxjdWxhdG9yPC90aXRsZT5cbiAgICAgICAgPGxpbmsgcmVsPVwiaWNvblwiIGhyZWY9XCIvZmF2aWNvbi5pY29cIiAvPlxuICAgICAgPC9IZWFkPlxuXG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxuICAgICAgICA8aDEgY2xhc3NOYW1lPVwidGl0bGVcIj5TaGFyZXMgU2F2ZXIgQ2FsY3VsYXRvcjwvaDE+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZGV0YWlsc0NvbnRhaW5lclwiPlxuICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cImRldGFpbHNIZWFkbGluZVwiPkZ1bmQgRGV0YWlsczwvc3Bhbj5cbiAgICAgICAgICA8ZGl2PjxiPk5hbWU6IDwvYj48c3Bhbj57ZGF0YS5hc3gubmFtZX08L3NwYW4+PC9kaXY+XG4gICAgICAgICAgPGRpdj48Yj5FbnRyeSBGZWU6IDwvYj48c3Bhbj57ZGF0YS5hc3guZW50cnlGZWV9JTwvc3Bhbj48L2Rpdj5cbiAgICAgICAgICA8ZGl2PjxiPk1hbmFnZW1lbnQgRmVlOiA8L2I+PHNwYW4+e2RhdGEuYXN4LnRvdGFsRXhwZW5zZVJhdGlvfSUgcC5hPC9zcGFuPjwvZGl2PlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjYWxjdWxhdGlvblNldHRpbmdzXCI+XG4gICAgICAgICAgPGxhYmVsPk1vbnRobHkgQ29udHJpYnV0aW9uOjwvbGFiZWw+XG4gICAgICAgICAgPGlucHV0IHR5cGU9XCJudW1iZXJcIiB2YWx1ZT17bW9udGhseURlcG9zaXR9IG9uQ2hhbmdlPXsoZXZlbnQpID0+IHNldE1vbnRobHlEZXBvc2l0KGV2ZW50LnRhcmdldC52YWx1ZSl9IC8+XG4gICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXsoKSA9PiBzZXRDYWxjdWxhdGlvbnMoY2FsY3VsYXRvclNlcnZpY2UuY2FsY3VsYXRlKGRhdGEuYXN4LCBtb250aGx5RGVwb3NpdCkpfT5cbiAgICAgICAgICAgIENhbGN1bGF0ZVxuICAgICAgICAgIDwvYnV0dG9uPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgeyBjYWxjdWxhdGlvbnMubGVuZ3RoID4gMCAmJlxuICAgICAgICAgIDx0YWJsZT5cbiAgICAgICAgICAgIDx0cj5cbiAgICAgICAgICAgICAgPHRoPkRhdGU8L3RoPlxuICAgICAgICAgICAgICA8dGg+VHlwZTwvdGg+XG4gICAgICAgICAgICAgIDx0aD5TaGFyZXMgQ2hhbmdlPC90aD5cbiAgICAgICAgICAgICAgPHRoPlRvdGFsIFNoYXJlczwvdGg+XG4gICAgICAgICAgICAgIDx0aD5Ub3RhbCBEZXBvc2l0ZWQ8L3RoPlxuICAgICAgICAgICAgICA8dGg+V29ydGg8L3RoPlxuICAgICAgICAgICAgICA8dGg+R3Jvd3RoPC90aD5cbiAgICAgICAgICAgIDwvdHI+XG4gICAgICAgICAgICB7IGNhbGN1bGF0aW9ucy5tYXAoY2FsY3VsYXRpb24gPT5cbiAgICAgICAgICAgIDx0ciBjbGFzc05hbWU9e2NhbGN1bGF0aW9uLnR5cGV9PlxuICAgICAgICAgICAgICA8dGQ+e2NhbGN1bGF0aW9uLmRhdGUudG9JU09TdHJpbmcoKS5zdWJzdHIoMCwgMTApfTwvdGQ+XG4gICAgICAgICAgICAgIDx0ZD57Y2FsY3VsYXRpb24udHlwZX17Y2FsY3VsYXRpb24udHlwZSA9PT0gJ3NoYXJlcycgPyBgIEAgJHtjYWxjdWxhdGlvbi5zaGFyZUFtb3VudH0gZXVyb3NgIDogJyd9PC90ZD5cbiAgICAgICAgICAgICAgPHRkPntjYWxjdWxhdGlvbi5zaGFyZUNoYW5nZSA+IDAgPyAnKycgOiAnJ317bnVtYmVyV2l0aENvbW1hcyhjYWxjdWxhdGlvbi5zaGFyZUNoYW5nZS50b0ZpeGVkKDIpKX08L3RkPlxuICAgICAgICAgICAgICA8dGQ+e251bWJlcldpdGhDb21tYXMoY2FsY3VsYXRpb24udG90YWxTaGFyZXMudG9GaXhlZCgyKSl9PC90ZD5cbiAgICAgICAgICAgICAgPHRkPntudW1iZXJXaXRoQ29tbWFzKGNhbGN1bGF0aW9uLnRvdGFsRGVwb3NpdGVkLnRvRml4ZWQoMikpfSBldXJvczwvdGQ+XG4gICAgICAgICAgICAgIDx0ZD57bnVtYmVyV2l0aENvbW1hcyhjYWxjdWxhdGlvbi53b3J0aC50b0ZpeGVkKDIpKX0gZXVyb3M8L3RkPlxuICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPXtjYWxjdWxhdGlvbi5ncm93dGggPCAwID8gJ25lZ2F0aXZlJyA6ICdwb3NpdGl2ZSd9PntjYWxjdWxhdGlvbi5ncm93dGgudG9GaXhlZCgyKX0lPC90ZD5cbiAgICAgICAgICAgIDwvdHI+XG4gICAgICAgICAgKX1cbiAgICAgICAgICA8L3RhYmxlPlxuICAgICAgICB9XG4gICAgICA8L2Rpdj5cbiAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgLmNvbnRhaW5lciB7XG4gICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICAgICAgICAgIHBhZGRpbmc6IDQwcHg7XG4gICAgICAgICAgd2lkdGg6IDkwMHB4O1xuICAgICAgICAgIGNvbG9yOiAjMzMzO1xuICAgICAgICB9XG4gICAgICAgIC50aXRsZSB7XG4gICAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgIGxpbmUtaGVpZ2h0OiAxLjE1O1xuICAgICAgICAgIGZvbnQtc2l6ZTogNDhweDtcbiAgICAgICAgfVxuICAgICAgICAudGl0bGUsXG4gICAgICAgIC5kZXNjcmlwdGlvbiB7XG4gICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICB9XG4gICAgICAgIC5kZXRhaWxzQ29udGFpbmVyIHtcbiAgICAgICAgICBhbGlnbi1pdGVtczogc3RhcnQ7XG4gICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICAgICAgICB9XG4gICAgICAgIC5kZXRhaWxzSGVhZGxpbmUge1xuICAgICAgICAgIGZvbnQtc2l6ZTogMjBweDtcbiAgICAgICAgICBmb250LXdlaWdodDogYm9sZDtcbiAgICAgICAgICBwYWRkaW5nOiAxNXB4IDA7XG4gICAgICAgIH1cbiAgICAgICAgLmNhbGN1bGF0aW9uU2V0dGluZ3Mge1xuICAgICAgICAgIHBhZGRpbmc6IDE1cHggMDtcbiAgICAgICAgfVxuICAgICAgICAuY2FsY3VsYXRpb25TZXR0aW5ncyBsYWJlbCB7XG4gICAgICAgICAgcGFkZGluZy1yaWdodDogMTBweDtcbiAgICAgICAgfVxuICAgICAgICAuY2FsY3VsYXRpb25TZXR0aW5ncyBpbnB1dCB7XG4gICAgICAgICAgbWFyZ2luLXJpZ2h0OiAxMHB4O1xuICAgICAgICB9XG4gICAgICAgIHRyOm50aC1jaGlsZChldmVuKSB7YmFja2dyb3VuZDogI0NDQ31cbiAgICAgICAgdHI6bnRoLWNoaWxkKG9kZCkge2JhY2tncm91bmQ6ICNGRkZ9XG4gICAgICAgIHRyLm1hbmFnZW1lbnQge1xuICAgICAgICAgIGJhY2tncm91bmQ6IHJlZDtcbiAgICAgICAgfVxuICAgICAgICB0ci5kaXZpZGVuZCB7XG4gICAgICAgICAgYmFja2dyb3VuZDogbGlnaHRibHVlO1xuICAgICAgICB9XG4gICAgICAgIHRkIHtcbiAgICAgICAgICBwYWRkaW5nOiAxMHB4O1xuICAgICAgICB9XG4gICAgICAgIHRkLm5lZ2F0aXZlIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiByZWQ7XG4gICAgICAgICAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gICAgICAgIH1cbiAgICAgICAgdGQucG9zaXRpdmUge1xuICAgICAgICAgIGJhY2tncm91bmQ6IGdyZWVuO1xuICAgICAgICAgIGNvbG9yOiB3aGl0ZTtcbiAgICAgICAgICBmb250LXdlaWdodDogYm9sZDtcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvZGl2PlxuICApO1xufVxuXG5leHBvcnQgZGVmYXVsdCBIb21lO1xuIl19 */\n/*@ sourceURL=D:\\\\My Projects\\\\shares-saver-calculator\\\\pages\\\\index.js */"));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Home);
-
-/***/ }),
-
-/***/ "./services/calculatorService.js":
-/*!***************************************!*\
-  !*** ./services/calculatorService.js ***!
-  \***************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-var getDividend = function getDividend(dividends, date) {
-  return dividends && dividends.find(function (div) {
-    return div[0] === date;
-  });
-};
-
-var calculate = function calculate(fund, monthlyContribution) {
-  var prices = fund.prices,
-      dividends = fund.dividends,
-      entryFee = fund.entryFee,
-      totalExpenseRatio = fund.totalExpenseRatio;
-  var monthlyDeposit = monthlyContribution * ((100 - entryFee) / 100);
-  var totalDeposited = 0;
-  var totalShares = 0;
-  var calculations = [];
-  prices.forEach(function (price) {
-    var date = new Date(price[0]);
-    var amount = price[1];
-    var sharesToBuy = monthlyDeposit / amount;
-    totalDeposited += monthlyContribution;
-    totalShares += sharesToBuy;
-    var dividend = getDividend(dividends, price[0]);
-
-    if (dividend) {
-      var dividendAmount = dividend[1] * totalShares;
-      var dividendShares = dividendAmount / amount;
-      totalShares += dividendShares;
-      calculations.push({
-        type: 'dividend',
-        date: date,
-        shareAmount: amount,
-        shareChange: dividendShares,
-        totalShares: totalShares,
-        totalDeposited: totalDeposited,
-        worth: totalShares * amount,
-        growth: totalShares * amount / totalDeposited * 100 - 100
-      });
-    }
-
-    if (date.getDate() === 1) {
-      calculations.push({
-        type: 'shares',
-        date: date,
-        shareAmount: amount,
-        shareChange: sharesToBuy,
-        totalShares: totalShares,
-        totalDeposited: totalDeposited,
-        worth: totalShares * amount,
-        growth: totalShares * amount / totalDeposited * 100 - 100
-      });
-    }
-
-    if (date.getMonth() === 0) {
-      var managementFee = totalShares * (totalExpenseRatio / 100);
-      totalShares *= (100 - totalExpenseRatio) / 100;
-      calculations.push({
-        type: 'management',
-        date: date,
-        shareAmount: amount,
-        shareChange: 0 - managementFee,
-        totalShares: totalShares,
-        totalDeposited: totalDeposited,
-        worth: totalShares * amount,
-        growth: totalShares * amount / totalDeposited * 100 - 100
-      });
-    }
-  });
-  return calculations;
-};
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  calculate: calculate
-});
-
-/***/ }),
-
-/***/ 0:
-/*!**********************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5CMy%20Projects%5Cshares-saver-calculator%5Cpages%5Cindex.js ***!
-  \**********************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5CMy%20Projects%5Cshares-saver-calculator%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CMy%20Projects%5Cshares-saver-calculator%5Cpages%5Cindex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=D%3A%5CMy%20Projects%5Cshares-saver-calculator%5Cnode_modules%5Cnext%5Cdist%5Cpages%5C_error.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=D%3A%5CMy%20Projects%5Cshares-saver-calculator%5Cnode_modules%5Cnext%5Cdist%5Cpages%5C_error.js!./");
 
 
 /***/ }),
@@ -4899,5 +3708,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=index.js.map
+},[[1,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=_error.js.map
