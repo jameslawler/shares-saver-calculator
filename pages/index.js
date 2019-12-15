@@ -5,31 +5,45 @@ import data from '../data';
 
 import calculatorService from '../services/calculatorService';
 
+const getFundsList = () => Object.keys(data).map(key => ({
+  key,
+  name: data[key].name,
+}));
+
 const numberWithCommas = (number) => number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 
 const Home = () => {
   const [monthlyDeposit, setMonthlyDeposit] = useState(100);
   const [calculations, setCalculations] = useState([]);
+  const [fundKey, setFundKey] = useState(Object.keys(data)[0]);
+  const funds = getFundsList();
 
   return (
     <div>
       <Head>
-        <title>Shares Saver Calculator</title>
+        <title>ETF Saving Plan Historical Simulator</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div className="container">
-        <h1 className="title">Shares Saver Calculator</h1>
+        <h1 className="title">ETF Saving Plan Historical Simulator</h1>
         <div className="detailsContainer">
-          <span className="detailsHeadline">Fund Details</span>
-          <div><b>Name: </b><span>{data.asx.name}</span></div>
-          <div><b>Entry Fee: </b><span>{data.asx.entryFee}%</span></div>
-          <div><b>Management Fee: </b><span>{data.asx.totalExpenseRatio}% p.a</span></div>
+          <span className="detailsHeadline">Fund</span>
+          <div className="fundSelector">
+            <select value={fundKey} onChange={(event) => setFundKey(event.target.value)}>
+              { funds.map(f => (
+                <option value={f.key}>{f.name}</option>
+              ))}
+            </select>
+          </div>
+          <div><b>Name: </b><span>{data[fundKey].name}</span></div>
+          <div><b>Entry Fee: </b><span>{data[fundKey].entryFee}%</span></div>
+          <div><b>Management Fee: </b><span>{data[fundKey].totalExpenseRatio}% p.a</span></div>
         </div>
         <div className="calculationSettings">
           <label>Monthly Contribution:</label>
           <input type="number" value={monthlyDeposit} onChange={(event) => setMonthlyDeposit(event.target.value)} />
-          <button onClick={() => setCalculations(calculatorService.calculate(data.asx, parseInt(monthlyDeposit, 10)))}>
+          <button onClick={() => setCalculations(calculatorService.calculate(data[fundKey], parseInt(monthlyDeposit, 10)))}>
             Calculate
           </button>
         </div>
@@ -75,6 +89,9 @@ const Home = () => {
         .title,
         .description {
           text-align: center;
+        }
+        .fundSelector {
+          padding: 10px 0 20px 0;
         }
         .detailsContainer {
           align-items: start;
