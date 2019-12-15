@@ -19,6 +19,24 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./data/dax.js":
+/*!*********************!*\
+  !*** ./data/dax.js ***!
+  \*********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: 'Lyxor DAX ETF',
+  entryFee: 1.5,
+  totalExpenseRatio: 0.15,
+  prices: [[Date.UTC(2006, 5, 1), 56.93], [Date.UTC(2006, 6, 1), 55.82], [Date.UTC(2006, 7, 1), 56.8], [Date.UTC(2006, 8, 1), 58.55], [Date.UTC(2006, 9, 1), 59.83], [Date.UTC(2006, 10, 1), 62.5], [Date.UTC(2006, 11, 1), 62.99], [Date.UTC(2007, 0, 1), 65.99], [Date.UTC(2007, 1, 1), 67.74], [Date.UTC(2007, 2, 1), 66.98], [Date.UTC(2007, 3, 1), 68.77], [Date.UTC(2007, 4, 1), 73.55], [Date.UTC(2007, 5, 1), 78.57], [Date.UTC(2007, 6, 1), 78.93], [Date.UTC(2007, 7, 1), 75.54], [Date.UTC(2007, 8, 1), 74.88], [Date.UTC(2007, 9, 1), 78.26], [Date.UTC(2007, 10, 1), 79.4], [Date.UTC(2007, 11, 1), 77.26], [Date.UTC(2008, 0, 1), 80.25], [Date.UTC(2008, 1, 1), 68.1], [Date.UTC(2008, 2, 1), 68.19], [Date.UTC(2008, 3, 1), 64.9], [Date.UTC(2008, 4, 1), 68.38], [Date.UTC(2008, 5, 1), 70.05], [Date.UTC(2008, 6, 1), 63.68], [Date.UTC(2008, 7, 1), 64.27], [Date.UTC(2008, 8, 1), 63.69], [Date.UTC(2008, 9, 1), 57.78], [Date.UTC(2008, 10, 1), 48.18], [Date.UTC(2008, 11, 1), 46.18], [Date.UTC(2009, 0, 1), 47.57], [Date.UTC(2009, 1, 1), 43.75], [Date.UTC(2009, 2, 1), 38.9], [Date.UTC(2009, 3, 1), 40.32], [Date.UTC(2009, 4, 1), 47.07], [Date.UTC(2009, 5, 1), 50.74], [Date.UTC(2009, 6, 1), 48.38], [Date.UTC(2009, 7, 1), 52.58], [Date.UTC(2009, 8, 1), 52.51], [Date.UTC(2009, 9, 1), 54.73], [Date.UTC(2009, 10, 1), 53.33], [Date.UTC(2009, 11, 1), 56.88], [Date.UTC(2010, 0, 1), 58.64], [Date.UTC(2010, 1, 1), 55.63], [Date.UTC(2010, 2, 1), 56.19], [Date.UTC(2010, 3, 1), 61.32], [Date.UTC(2010, 4, 1), 60.31], [Date.UTC(2010, 5, 1), 58.76], [Date.UTC(2010, 6, 1), 57.52], [Date.UTC(2010, 7, 1), 60.37], [Date.UTC(2010, 8, 1), 59.71], [Date.UTC(2010, 9, 1), 60.95], [Date.UTC(2010, 10, 1), 64.79], [Date.UTC(2010, 11, 1), 67.33], [Date.UTC(2011, 0, 1), 67.98], [Date.UTC(2011, 1, 1), 70.4], [Date.UTC(2011, 2, 1), 70.77], [Date.UTC(2011, 3, 1), 70.32], [Date.UTC(2011, 4, 1), 73.59], [Date.UTC(2011, 5, 1), 70.65], [Date.UTC(2011, 6, 1), 72.62], [Date.UTC(2011, 7, 1), 68.03], [Date.UTC(2011, 8, 1), 56.01], [Date.UTC(2011, 9, 1), 53.76], [Date.UTC(2011, 10, 1), 57.01], [Date.UTC(2011, 11, 1), 58.97], [Date.UTC(2012, 0, 1), 57.6], [Date.UTC(2012, 1, 1), 64.63], [Date.UTC(2012, 2, 1), 67.81], [Date.UTC(2012, 3, 1), 67.84], [Date.UTC(2012, 4, 1), 66.02], [Date.UTC(2012, 5, 1), 59.04], [Date.UTC(2012, 6, 1), 62.59], [Date.UTC(2012, 7, 1), 65.88], [Date.UTC(2012, 8, 1), 67.97], [Date.UTC(2012, 9, 1), 71.43], [Date.UTC(2012, 10, 1), 71.5], [Date.UTC(2012, 11, 1), 72.16], [Date.UTC(2013, 0, 1), 74.19], [Date.UTC(2013, 1, 1), 76.3], [Date.UTC(2013, 2, 1), 75.06], [Date.UTC(2013, 3, 1), 76.19], [Date.UTC(2013, 4, 1), 77.18], [Date.UTC(2013, 5, 1), 81.25], [Date.UTC(2013, 6, 1), 77.67], [Date.UTC(2013, 7, 1), 81.81], [Date.UTC(2013, 8, 1), 78.79], [Date.UTC(2013, 9, 1), 84.46], [Date.UTC(2013, 10, 1), 87.54], [Date.UTC(2013, 11, 1), 91.37], [Date.UTC(2014, 0, 1), 92.99], [Date.UTC(2014, 1, 1), 90.35], [Date.UTC(2014, 2, 1), 94.07], [Date.UTC(2014, 3, 1), 93.18], [Date.UTC(2014, 4, 1), 93.26], [Date.UTC(2014, 5, 1), 96.42], [Date.UTC(2014, 6, 1), 95.99], [Date.UTC(2014, 7, 1), 89.25], [Date.UTC(2014, 8, 1), 91.83], [Date.UTC(2014, 9, 1), 90.86], [Date.UTC(2014, 10, 1), 90.29], [Date.UTC(2014, 11, 1), 96.43], [Date.UTC(2015, 0, 1), 94.89], [Date.UTC(2015, 1, 1), 103.44], [Date.UTC(2015, 2, 1), 110.27], [Date.UTC(2015, 3, 1), 116.06], [Date.UTC(2015, 4, 1), 110.02], [Date.UTC(2015, 5, 1), 110.23], [Date.UTC(2015, 6, 1), 107.76], [Date.UTC(2015, 7, 1), 108.99], [Date.UTC(2015, 8, 1), 96.51], [Date.UTC(2015, 9, 1), 91.62], [Date.UTC(2015, 10, 1), 104.53], [Date.UTC(2015, 11, 1), 108.48], [Date.UTC(2016, 0, 1), 103.47], [Date.UTC(2016, 1, 1), 93.88], [Date.UTC(2016, 2, 1), 93.55], [Date.UTC(2016, 3, 1), 94.26], [Date.UTC(2016, 4, 1), 96.51], [Date.UTC(2016, 5, 1), 97.86], [Date.UTC(2016, 6, 1), 93.72], [Date.UTC(2016, 7, 1), 99.03], [Date.UTC(2016, 8, 1), 100.97], [Date.UTC(2016, 9, 1), 100.74], [Date.UTC(2016, 10, 1), 100.86], [Date.UTC(2016, 11, 1), 100.94], [Date.UTC(2017, 0, 1), 109.99], [Date.UTC(2017, 1, 1), 111.69], [Date.UTC(2017, 2, 1), 115.53], [Date.UTC(2017, 3, 1), 117.81], [Date.UTC(2017, 4, 1), 118.9], [Date.UTC(2017, 5, 1), 120.83], [Date.UTC(2017, 6, 1), 117.66], [Date.UTC(2017, 7, 1), 116.94], [Date.UTC(2017, 8, 1), 115.89], [Date.UTC(2017, 9, 1), 122.43], [Date.UTC(2017, 10, 1), 128.49], [Date.UTC(2017, 11, 1), 122.71], [Date.UTC(2018, 0, 1), 123.23], [Date.UTC(2018, 1, 1), 123.98], [Date.UTC(2018, 2, 1), 116.22], [Date.UTC(2018, 3, 1), 115.3], [Date.UTC(2018, 4, 1), 120.12], [Date.UTC(2018, 5, 1), 120.89], [Date.UTC(2018, 6, 1), 116.89], [Date.UTC(2018, 7, 1), 120.97], [Date.UTC(2018, 8, 1), 117.41], [Date.UTC(2018, 9, 1), 117.16], [Date.UTC(2018, 10, 1), 108.88], [Date.UTC(2018, 11, 1), 106.87], [Date.UTC(2019, 0, 1), 100.23], [Date.UTC(2019, 1, 1), 106.05], [Date.UTC(2019, 2, 1), 110.02], [Date.UTC(2019, 3, 1), 110.78], [Date.UTC(2019, 4, 1), 116.97], [Date.UTC(2019, 5, 1), 110.83], [Date.UTC(2019, 6, 1), 118.32], [Date.UTC(2019, 7, 1), 115.77], [Date.UTC(2019, 8, 1), 112.79], [Date.UTC(2019, 9, 1), 116.09], [Date.UTC(2019, 10, 1), 122.4], [Date.UTC(2019, 11, 1), 124.99]]
+});
+
+/***/ }),
+
 /***/ "./data/index.js":
 /*!***********************!*\
   !*** ./data/index.js ***!
@@ -29,9 +47,12 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _asx__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./asx */ "./data/asx.js");
+/* harmony import */ var _dax__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./dax */ "./data/dax.js");
+
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  asx: _asx__WEBPACK_IMPORTED_MODULE_0__["default"]
+  asx: _asx__WEBPACK_IMPORTED_MODULE_0__["default"],
+  dax: _dax__WEBPACK_IMPORTED_MODULE_1__["default"]
 });
 
 /***/ }),
@@ -99,6 +120,17 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/define-proper
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/object/get-prototype-of */ "./node_modules/core-js/library/fn/object/get-prototype-of.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/keys.js ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/keys */ "./node_modules/core-js/library/fn/object/keys.js");
 
 /***/ }),
 
@@ -511,6 +543,19 @@ module.exports = function defineProperty(it, key, desc) {
 
 __webpack_require__(/*! ../../modules/es6.object.get-prototype-of */ "./node_modules/core-js/library/modules/es6.object.get-prototype-of.js");
 module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object.getPrototypeOf;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/object/keys.js":
+/*!********************************************************!*\
+  !*** ./node_modules/core-js/library/fn/object/keys.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es6.object.keys */ "./node_modules/core-js/library/modules/es6.object.keys.js");
+module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object.keys;
 
 
 /***/ }),
@@ -2805,6 +2850,26 @@ __webpack_require__(/*! ./_object-sap */ "./node_modules/core-js/library/modules
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/modules/es6.object.keys.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.object.keys.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 19.1.2.14 Object.keys(O)
+var toObject = __webpack_require__(/*! ./_to-object */ "./node_modules/core-js/library/modules/_to-object.js");
+var $keys = __webpack_require__(/*! ./_object-keys */ "./node_modules/core-js/library/modules/_object-keys.js");
+
+__webpack_require__(/*! ./_object-sap */ "./node_modules/core-js/library/modules/_object-sap.js")('keys', function () {
+  return function keys(it) {
+    return $keys(toObject(it));
+  };
+});
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/modules/es6.object.set-prototype-of.js":
 /*!*****************************************************************************!*\
   !*** ./node_modules/core-js/library/modules/es6.object.set-prototype-of.js ***!
@@ -4590,168 +4655,213 @@ module.exports = __webpack_require__(/*! ./dist/style */ "./node_modules/styled-
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/parse-int */ "./node_modules/@babel/runtime-corejs2/core-js/parse-int.js");
 /* harmony import */ var _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../data */ "./data/index.js");
-/* harmony import */ var _services_calculatorService__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../services/calculatorService */ "./services/calculatorService.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/keys */ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../data */ "./data/index.js");
+/* harmony import */ var _services_calculatorService__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../services/calculatorService */ "./services/calculatorService.js");
+
 
 var _jsxFileName = "D:\\My Projects\\shares-saver-calculator\\pages\\index.js";
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement;
 
 
 
 
+
+var getFundsList = function getFundsList() {
+  return _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_1___default()(_data__WEBPACK_IMPORTED_MODULE_5__["default"]).map(function (key) {
+    return {
+      key: key,
+      name: _data__WEBPACK_IMPORTED_MODULE_5__["default"][key].name
+    };
+  });
+};
 
 var numberWithCommas = function numberWithCommas(number) {
   return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 };
 
 var Home = function Home() {
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(100),
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])(100),
       monthlyDeposit = _useState[0],
       setMonthlyDeposit = _useState[1];
 
-  var _useState2 = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])([]),
+  var _useState2 = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])([]),
       calculations = _useState2[0],
       setCalculations = _useState2[1];
 
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])(_babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_1___default()(_data__WEBPACK_IMPORTED_MODULE_5__["default"])[0]),
+      fundKey = _useState3[0],
+      setFundKey = _useState3[1];
+
+  var funds = getFundsList();
   return __jsx("div", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, __jsx("title", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, "Shares Saver Calculator"), __jsx("link", {
-    rel: "icon",
-    href: "/favicon.ico",
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  })), __jsx("div", {
-    className: "jsx-1517020032" + " " + "container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: this
-  }, __jsx("h1", {
-    className: "jsx-1517020032" + " " + "title",
+    className: "jsx-3680424676",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
     },
     __self: this
-  }, "Shares Saver Calculator"), __jsx("div", {
-    className: "jsx-1517020032" + " " + "detailsContainer",
+  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_4___default.a, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
     },
     __self: this
-  }, __jsx("span", {
-    className: "jsx-1517020032" + " " + "detailsHeadline",
+  }, __jsx("title", {
+    className: "jsx-3680424676",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
     },
     __self: this
-  }, "Fund Details"), __jsx("div", {
-    className: "jsx-1517020032",
+  }, "ETF Saving Plan Historical Simulator"), __jsx("link", {
+    rel: "icon",
+    href: "/favicon.ico",
+    className: "jsx-3680424676",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
     },
     __self: this
-  }, __jsx("b", {
-    className: "jsx-1517020032",
+  })), __jsx("div", {
+    className: "jsx-3680424676" + " " + "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 28
     },
     __self: this
-  }, "Name: "), __jsx("span", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: this
-  }, _data__WEBPACK_IMPORTED_MODULE_4__["default"].asx.name)), __jsx("div", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }, __jsx("b", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }, "Entry Fee: "), __jsx("span", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }, _data__WEBPACK_IMPORTED_MODULE_4__["default"].asx.entryFee, "%")), __jsx("div", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: this
-  }, __jsx("b", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: this
-  }, "Management Fee: "), __jsx("span", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: this
-  }, _data__WEBPACK_IMPORTED_MODULE_4__["default"].asx.totalExpenseRatio, "% p.a"))), __jsx("div", {
-    className: "jsx-1517020032" + " " + "calculationSettings",
+  }, __jsx("h1", {
+    className: "jsx-3680424676" + " " + "title",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 29
     },
     __self: this
-  }, __jsx("label", {
-    className: "jsx-1517020032",
+  }, "ETF Saving Plan Historical Simulator"), __jsx("div", {
+    className: "jsx-3680424676" + " " + "detailsContainer",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30
+    },
+    __self: this
+  }, __jsx("span", {
+    className: "jsx-3680424676" + " " + "detailsHeadline",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, "Fund"), __jsx("div", {
+    className: "jsx-3680424676" + " " + "fundSelector",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, __jsx("select", {
+    value: fundKey,
+    onChange: function onChange(event) {
+      return setFundKey(event.target.value);
+    },
+    className: "jsx-3680424676",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, funds.map(function (f) {
+    return __jsx("option", {
+      value: f.key,
+      className: "jsx-3680424676",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 35
+      },
+      __self: this
+    }, f.name);
+  }))), __jsx("div", {
+    className: "jsx-3680424676",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, __jsx("b", {
+    className: "jsx-3680424676",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, "Name: "), __jsx("span", {
+    className: "jsx-3680424676",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, _data__WEBPACK_IMPORTED_MODULE_5__["default"][fundKey].name)), __jsx("div", {
+    className: "jsx-3680424676",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, __jsx("b", {
+    className: "jsx-3680424676",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, "Entry Fee: "), __jsx("span", {
+    className: "jsx-3680424676",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, _data__WEBPACK_IMPORTED_MODULE_5__["default"][fundKey].entryFee, "%")), __jsx("div", {
+    className: "jsx-3680424676",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, __jsx("b", {
+    className: "jsx-3680424676",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, "Management Fee: "), __jsx("span", {
+    className: "jsx-3680424676",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, _data__WEBPACK_IMPORTED_MODULE_5__["default"][fundKey].totalExpenseRatio, "% p.a"))), __jsx("div", {
+    className: "jsx-3680424676" + " " + "calculationSettings",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, __jsx("label", {
+    className: "jsx-3680424676",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
     },
     __self: this
   }, "Monthly Contribution:"), __jsx("input", {
@@ -4760,147 +4870,147 @@ var Home = function Home() {
     onChange: function onChange(event) {
       return setMonthlyDeposit(event.target.value);
     },
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }), __jsx("button", {
-    onClick: function onClick() {
-      return setCalculations(_services_calculatorService__WEBPACK_IMPORTED_MODULE_5__["default"].calculate(_data__WEBPACK_IMPORTED_MODULE_4__["default"].asx, _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0___default()(monthlyDeposit, 10)));
-    },
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }, "Calculate")), calculations.length > 0 && __jsx("table", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: this
-  }, __jsx("tr", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }, __jsx("th", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: this
-  }, "Date"), __jsx("th", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }, "Type"), __jsx("th", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    },
-    __self: this
-  }, "Shares Change"), __jsx("th", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
-  }, "Total Shares"), __jsx("th", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: this
-  }, "Total Deposited"), __jsx("th", {
-    className: "jsx-1517020032",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }, "Worth"), __jsx("th", {
-    className: "jsx-1517020032",
+    className: "jsx-3680424676",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 45
     },
     __self: this
+  }), __jsx("button", {
+    onClick: function onClick() {
+      return setCalculations(_services_calculatorService__WEBPACK_IMPORTED_MODULE_6__["default"].calculate(_data__WEBPACK_IMPORTED_MODULE_5__["default"][fundKey], _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0___default()(monthlyDeposit, 10)));
+    },
+    className: "jsx-3680424676",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, "Calculate")), calculations.length > 0 && __jsx("table", {
+    className: "jsx-3680424676",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, __jsx("tr", {
+    className: "jsx-3680424676",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, __jsx("th", {
+    className: "jsx-3680424676",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }, "Date"), __jsx("th", {
+    className: "jsx-3680424676",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }, "Type"), __jsx("th", {
+    className: "jsx-3680424676",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }, "Shares Change"), __jsx("th", {
+    className: "jsx-3680424676",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
+    },
+    __self: this
+  }, "Total Shares"), __jsx("th", {
+    className: "jsx-3680424676",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }, "Total Deposited"), __jsx("th", {
+    className: "jsx-3680424676",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }, "Worth"), __jsx("th", {
+    className: "jsx-3680424676",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
   }, "Growth")), calculations.map(function (calculation) {
     return __jsx("tr", {
-      className: "jsx-1517020032" + " " + (calculation.type || ""),
+      className: "jsx-3680424676" + " " + (calculation.type || ""),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 48
+        lineNumber: 62
       },
       __self: this
     }, __jsx("td", {
-      className: "jsx-1517020032",
+      className: "jsx-3680424676",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 49
+        lineNumber: 63
       },
       __self: this
     }, calculation.date.toISOString().substr(0, 10)), __jsx("td", {
-      className: "jsx-1517020032",
+      className: "jsx-3680424676",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 50
+        lineNumber: 64
       },
       __self: this
     }, calculation.type, calculation.type === 'shares' ? " @ ".concat(calculation.shareAmount, " euros") : ''), __jsx("td", {
-      className: "jsx-1517020032",
+      className: "jsx-3680424676",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 51
+        lineNumber: 65
       },
       __self: this
     }, calculation.shareChange > 0 ? '+' : '', numberWithCommas(calculation.shareChange.toFixed(2))), __jsx("td", {
-      className: "jsx-1517020032",
+      className: "jsx-3680424676",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 52
+        lineNumber: 66
       },
       __self: this
     }, numberWithCommas(calculation.totalShares.toFixed(2))), __jsx("td", {
-      className: "jsx-1517020032",
+      className: "jsx-3680424676",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 53
+        lineNumber: 67
       },
       __self: this
     }, numberWithCommas(calculation.totalDeposited.toFixed(2)), " euros"), __jsx("td", {
-      className: "jsx-1517020032",
+      className: "jsx-3680424676",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 54
+        lineNumber: 68
       },
       __self: this
     }, numberWithCommas(calculation.worth.toFixed(2)), " euros"), __jsx("td", {
-      className: "jsx-1517020032" + " " + ((calculation.growth < 0 ? 'negative' : 'positive') || ""),
+      className: "jsx-3680424676" + " " + ((calculation.growth < 0 ? 'negative' : 'positive') || ""),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 55
+        lineNumber: 69
       },
       __self: this
     }, calculation.growth.toFixed(2), "%"));
-  }))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    id: "1517020032",
+  }))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    id: "3680424676",
     __self: this
-  }, ".container.jsx-1517020032{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;padding:40px;width:900px;color:#333;}.title.jsx-1517020032{margin:0;width:100%;line-height:1.15;font-size:48px;}.title.jsx-1517020032,.description.jsx-1517020032{text-align:center;}.detailsContainer.jsx-1517020032{-webkit-align-items:start;-webkit-box-align:start;-ms-flex-align:start;align-items:start;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}.detailsHeadline.jsx-1517020032{font-size:20px;font-weight:bold;padding:15px 0;}.calculationSettings.jsx-1517020032{padding:15px 0;}.calculationSettings.jsx-1517020032 label.jsx-1517020032{padding-right:10px;}.calculationSettings.jsx-1517020032 input.jsx-1517020032{margin-right:10px;}tr.jsx-1517020032:nth-child(even){background:#CCC;}tr.jsx-1517020032:nth-child(odd){background:#FFF;}tr.management.jsx-1517020032{background:red;}tr.dividend.jsx-1517020032{background:lightblue;}td.jsx-1517020032{padding:10px;}td.negative.jsx-1517020032{background:red;font-weight:bold;}td.positive.jsx-1517020032{background:green;color:white;font-weight:bold;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkQ6XFxNeSBQcm9qZWN0c1xcc2hhcmVzLXNhdmVyLWNhbGN1bGF0b3JcXHBhZ2VzXFxpbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE0RGtCLEFBR3dCLEFBT0osQUFPUyxBQUdBLEFBS0gsQUFLQSxBQUdJLEFBR0QsQUFFYyxBQUNELEFBRWhCLEFBR00sQUFHUixBQUdFLEFBSUUsU0EzQ04sSUFxQ2IsRUF0Qm1CLEFBS25CLEFBV0EsQUFTbUIsQ0FiZ0IsQUFDRCxDQWdCcEIsQ0FyQ2QsQUFtQkEsQ0FIQSxDQXRCbUIsQ0FpQ25CLFFBV21CLEdBN0JGLEFBeUJqQixLQXZDaUIsU0E0Q2pCLENBN0JBLEtBZEEsc0JBVndCLGVBaUJULCtEQWhCQSxXQWlCUyxFQWhCVixZQUNELFdBQ2IscURBZUEiLCJmaWxlIjoiRDpcXE15IFByb2plY3RzXFxzaGFyZXMtc2F2ZXItY2FsY3VsYXRvclxccGFnZXNcXGluZGV4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnO1xuaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJztcblxuaW1wb3J0IGRhdGEgZnJvbSAnLi4vZGF0YSc7XG5cbmltcG9ydCBjYWxjdWxhdG9yU2VydmljZSBmcm9tICcuLi9zZXJ2aWNlcy9jYWxjdWxhdG9yU2VydmljZSc7XG5cbmNvbnN0IG51bWJlcldpdGhDb21tYXMgPSAobnVtYmVyKSA9PiBudW1iZXIudG9TdHJpbmcoKS5yZXBsYWNlKC9cXEIoPz0oXFxkezN9KSsoPyFcXGQpKS9nLCBcIixcIik7XG5cbmNvbnN0IEhvbWUgPSAoKSA9PiB7XG4gIGNvbnN0IFttb250aGx5RGVwb3NpdCwgc2V0TW9udGhseURlcG9zaXRdID0gdXNlU3RhdGUoMTAwKTtcbiAgY29uc3QgW2NhbGN1bGF0aW9ucywgc2V0Q2FsY3VsYXRpb25zXSA9IHVzZVN0YXRlKFtdKTtcblxuICByZXR1cm4gKFxuICAgIDxkaXY+XG4gICAgICA8SGVhZD5cbiAgICAgICAgPHRpdGxlPlNoYXJlcyBTYXZlciBDYWxjdWxhdG9yPC90aXRsZT5cbiAgICAgICAgPGxpbmsgcmVsPVwiaWNvblwiIGhyZWY9XCIvZmF2aWNvbi5pY29cIiAvPlxuICAgICAgPC9IZWFkPlxuXG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxuICAgICAgICA8aDEgY2xhc3NOYW1lPVwidGl0bGVcIj5TaGFyZXMgU2F2ZXIgQ2FsY3VsYXRvcjwvaDE+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZGV0YWlsc0NvbnRhaW5lclwiPlxuICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cImRldGFpbHNIZWFkbGluZVwiPkZ1bmQgRGV0YWlsczwvc3Bhbj5cbiAgICAgICAgICA8ZGl2PjxiPk5hbWU6IDwvYj48c3Bhbj57ZGF0YS5hc3gubmFtZX08L3NwYW4+PC9kaXY+XG4gICAgICAgICAgPGRpdj48Yj5FbnRyeSBGZWU6IDwvYj48c3Bhbj57ZGF0YS5hc3guZW50cnlGZWV9JTwvc3Bhbj48L2Rpdj5cbiAgICAgICAgICA8ZGl2PjxiPk1hbmFnZW1lbnQgRmVlOiA8L2I+PHNwYW4+e2RhdGEuYXN4LnRvdGFsRXhwZW5zZVJhdGlvfSUgcC5hPC9zcGFuPjwvZGl2PlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjYWxjdWxhdGlvblNldHRpbmdzXCI+XG4gICAgICAgICAgPGxhYmVsPk1vbnRobHkgQ29udHJpYnV0aW9uOjwvbGFiZWw+XG4gICAgICAgICAgPGlucHV0IHR5cGU9XCJudW1iZXJcIiB2YWx1ZT17bW9udGhseURlcG9zaXR9IG9uQ2hhbmdlPXsoZXZlbnQpID0+IHNldE1vbnRobHlEZXBvc2l0KGV2ZW50LnRhcmdldC52YWx1ZSl9IC8+XG4gICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXsoKSA9PiBzZXRDYWxjdWxhdGlvbnMoY2FsY3VsYXRvclNlcnZpY2UuY2FsY3VsYXRlKGRhdGEuYXN4LCBwYXJzZUludChtb250aGx5RGVwb3NpdCwgMTApKSl9PlxuICAgICAgICAgICAgQ2FsY3VsYXRlXG4gICAgICAgICAgPC9idXR0b24+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICB7IGNhbGN1bGF0aW9ucy5sZW5ndGggPiAwICYmXG4gICAgICAgICAgPHRhYmxlPlxuICAgICAgICAgICAgPHRyPlxuICAgICAgICAgICAgICA8dGg+RGF0ZTwvdGg+XG4gICAgICAgICAgICAgIDx0aD5UeXBlPC90aD5cbiAgICAgICAgICAgICAgPHRoPlNoYXJlcyBDaGFuZ2U8L3RoPlxuICAgICAgICAgICAgICA8dGg+VG90YWwgU2hhcmVzPC90aD5cbiAgICAgICAgICAgICAgPHRoPlRvdGFsIERlcG9zaXRlZDwvdGg+XG4gICAgICAgICAgICAgIDx0aD5Xb3J0aDwvdGg+XG4gICAgICAgICAgICAgIDx0aD5Hcm93dGg8L3RoPlxuICAgICAgICAgICAgPC90cj5cbiAgICAgICAgICAgIHsgY2FsY3VsYXRpb25zLm1hcChjYWxjdWxhdGlvbiA9PlxuICAgICAgICAgICAgPHRyIGNsYXNzTmFtZT17Y2FsY3VsYXRpb24udHlwZX0+XG4gICAgICAgICAgICAgIDx0ZD57Y2FsY3VsYXRpb24uZGF0ZS50b0lTT1N0cmluZygpLnN1YnN0cigwLCAxMCl9PC90ZD5cbiAgICAgICAgICAgICAgPHRkPntjYWxjdWxhdGlvbi50eXBlfXtjYWxjdWxhdGlvbi50eXBlID09PSAnc2hhcmVzJyA/IGAgQCAke2NhbGN1bGF0aW9uLnNoYXJlQW1vdW50fSBldXJvc2AgOiAnJ308L3RkPlxuICAgICAgICAgICAgICA8dGQ+e2NhbGN1bGF0aW9uLnNoYXJlQ2hhbmdlID4gMCA/ICcrJyA6ICcnfXtudW1iZXJXaXRoQ29tbWFzKGNhbGN1bGF0aW9uLnNoYXJlQ2hhbmdlLnRvRml4ZWQoMikpfTwvdGQ+XG4gICAgICAgICAgICAgIDx0ZD57bnVtYmVyV2l0aENvbW1hcyhjYWxjdWxhdGlvbi50b3RhbFNoYXJlcy50b0ZpeGVkKDIpKX08L3RkPlxuICAgICAgICAgICAgICA8dGQ+e251bWJlcldpdGhDb21tYXMoY2FsY3VsYXRpb24udG90YWxEZXBvc2l0ZWQudG9GaXhlZCgyKSl9IGV1cm9zPC90ZD5cbiAgICAgICAgICAgICAgPHRkPntudW1iZXJXaXRoQ29tbWFzKGNhbGN1bGF0aW9uLndvcnRoLnRvRml4ZWQoMikpfSBldXJvczwvdGQ+XG4gICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9e2NhbGN1bGF0aW9uLmdyb3d0aCA8IDAgPyAnbmVnYXRpdmUnIDogJ3Bvc2l0aXZlJ30+e2NhbGN1bGF0aW9uLmdyb3d0aC50b0ZpeGVkKDIpfSU8L3RkPlxuICAgICAgICAgICAgPC90cj5cbiAgICAgICAgICApfVxuICAgICAgICAgIDwvdGFibGU+XG4gICAgICAgIH1cbiAgICAgIDwvZGl2PlxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAuY29udGFpbmVyIHtcbiAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAgICAgICAgcGFkZGluZzogNDBweDtcbiAgICAgICAgICB3aWR0aDogOTAwcHg7XG4gICAgICAgICAgY29sb3I6ICMzMzM7XG4gICAgICAgIH1cbiAgICAgICAgLnRpdGxlIHtcbiAgICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgICAgbGluZS1oZWlnaHQ6IDEuMTU7XG4gICAgICAgICAgZm9udC1zaXplOiA0OHB4O1xuICAgICAgICB9XG4gICAgICAgIC50aXRsZSxcbiAgICAgICAgLmRlc2NyaXB0aW9uIHtcbiAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAgIH1cbiAgICAgICAgLmRldGFpbHNDb250YWluZXIge1xuICAgICAgICAgIGFsaWduLWl0ZW1zOiBzdGFydDtcbiAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAgICAgIH1cbiAgICAgICAgLmRldGFpbHNIZWFkbGluZSB7XG4gICAgICAgICAgZm9udC1zaXplOiAyMHB4O1xuICAgICAgICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xuICAgICAgICAgIHBhZGRpbmc6IDE1cHggMDtcbiAgICAgICAgfVxuICAgICAgICAuY2FsY3VsYXRpb25TZXR0aW5ncyB7XG4gICAgICAgICAgcGFkZGluZzogMTVweCAwO1xuICAgICAgICB9XG4gICAgICAgIC5jYWxjdWxhdGlvblNldHRpbmdzIGxhYmVsIHtcbiAgICAgICAgICBwYWRkaW5nLXJpZ2h0OiAxMHB4O1xuICAgICAgICB9XG4gICAgICAgIC5jYWxjdWxhdGlvblNldHRpbmdzIGlucHV0IHtcbiAgICAgICAgICBtYXJnaW4tcmlnaHQ6IDEwcHg7XG4gICAgICAgIH1cbiAgICAgICAgdHI6bnRoLWNoaWxkKGV2ZW4pIHtiYWNrZ3JvdW5kOiAjQ0NDfVxuICAgICAgICB0cjpudGgtY2hpbGQob2RkKSB7YmFja2dyb3VuZDogI0ZGRn1cbiAgICAgICAgdHIubWFuYWdlbWVudCB7XG4gICAgICAgICAgYmFja2dyb3VuZDogcmVkO1xuICAgICAgICB9XG4gICAgICAgIHRyLmRpdmlkZW5kIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiBsaWdodGJsdWU7XG4gICAgICAgIH1cbiAgICAgICAgdGQge1xuICAgICAgICAgIHBhZGRpbmc6IDEwcHg7XG4gICAgICAgIH1cbiAgICAgICAgdGQubmVnYXRpdmUge1xuICAgICAgICAgIGJhY2tncm91bmQ6IHJlZDtcbiAgICAgICAgICBmb250LXdlaWdodDogYm9sZDtcbiAgICAgICAgfVxuICAgICAgICB0ZC5wb3NpdGl2ZSB7XG4gICAgICAgICAgYmFja2dyb3VuZDogZ3JlZW47XG4gICAgICAgICAgY29sb3I6IHdoaXRlO1xuICAgICAgICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG4gICAgPC9kaXY+XG4gICk7XG59XG5cbmV4cG9ydCBkZWZhdWx0IEhvbWU7XG4iXX0= */\n/*@ sourceURL=D:\\\\My Projects\\\\shares-saver-calculator\\\\pages\\\\index.js */"));
+  }, ".container.jsx-3680424676{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;padding:40px;width:900px;color:#333;}.title.jsx-3680424676{margin:0;width:100%;line-height:1.15;font-size:48px;}.title.jsx-3680424676,.description.jsx-3680424676{text-align:center;}.fundSelector.jsx-3680424676{padding:10px 0 20px 0;}.detailsContainer.jsx-3680424676{-webkit-align-items:start;-webkit-box-align:start;-ms-flex-align:start;align-items:start;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}.detailsHeadline.jsx-3680424676{font-size:20px;font-weight:bold;padding:15px 0;}.calculationSettings.jsx-3680424676{padding:15px 0;}.calculationSettings.jsx-3680424676 label.jsx-3680424676{padding-right:10px;}.calculationSettings.jsx-3680424676 input.jsx-3680424676{margin-right:10px;}tr.jsx-3680424676:nth-child(even){background:#CCC;}tr.jsx-3680424676:nth-child(odd){background:#FFF;}tr.management.jsx-3680424676{background:red;}tr.dividend.jsx-3680424676{background:lightblue;}td.jsx-3680424676{padding:10px;}td.negative.jsx-3680424676{background:red;font-weight:bold;}td.positive.jsx-3680424676{background:green;color:white;font-weight:bold;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkQ6XFxNeSBQcm9qZWN0c1xcc2hhcmVzLXNhdmVyLWNhbGN1bGF0b3JcXHBhZ2VzXFxpbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUEwRWtCLEFBR3dCLEFBT0osQUFPUyxBQUdJLEFBR0osQUFLSCxBQUtBLEFBR0ksQUFHRCxBQUVjLEFBQ0QsQUFFaEIsQUFHTSxBQUdSLEFBR0UsQUFJRSxTQTlDTixJQXdDYixFQXRCbUIsQUFLbkIsQUFXQSxBQVNtQixDQWJnQixBQUNELENBZ0JwQixDQXhDZCxBQXNCQSxDQUhBLENBekJtQixDQW9DbkIsQ0EzQkEsT0FzQ21CLEdBN0JGLEFBeUJqQixLQTFDaUIsU0ErQ2pCLENBN0JBLEtBakJBLHNCQVZ3QixlQW9CVCwrREFuQkEsV0FvQlMsRUFuQlYsWUFDRCxXQUNiLHFEQWtCQSIsImZpbGUiOiJEOlxcTXkgUHJvamVjdHNcXHNoYXJlcy1zYXZlci1jYWxjdWxhdG9yXFxwYWdlc1xcaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QsIHsgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7XG5pbXBvcnQgSGVhZCBmcm9tICduZXh0L2hlYWQnO1xuXG5pbXBvcnQgZGF0YSBmcm9tICcuLi9kYXRhJztcblxuaW1wb3J0IGNhbGN1bGF0b3JTZXJ2aWNlIGZyb20gJy4uL3NlcnZpY2VzL2NhbGN1bGF0b3JTZXJ2aWNlJztcblxuY29uc3QgZ2V0RnVuZHNMaXN0ID0gKCkgPT4gT2JqZWN0LmtleXMoZGF0YSkubWFwKGtleSA9PiAoe1xuICBrZXksXG4gIG5hbWU6IGRhdGFba2V5XS5uYW1lLFxufSkpO1xuXG5jb25zdCBudW1iZXJXaXRoQ29tbWFzID0gKG51bWJlcikgPT4gbnVtYmVyLnRvU3RyaW5nKCkucmVwbGFjZSgvXFxCKD89KFxcZHszfSkrKD8hXFxkKSkvZywgXCIsXCIpO1xuXG5jb25zdCBIb21lID0gKCkgPT4ge1xuICBjb25zdCBbbW9udGhseURlcG9zaXQsIHNldE1vbnRobHlEZXBvc2l0XSA9IHVzZVN0YXRlKDEwMCk7XG4gIGNvbnN0IFtjYWxjdWxhdGlvbnMsIHNldENhbGN1bGF0aW9uc10gPSB1c2VTdGF0ZShbXSk7XG4gIGNvbnN0IFtmdW5kS2V5LCBzZXRGdW5kS2V5XSA9IHVzZVN0YXRlKE9iamVjdC5rZXlzKGRhdGEpWzBdKTtcbiAgY29uc3QgZnVuZHMgPSBnZXRGdW5kc0xpc3QoKTtcblxuICByZXR1cm4gKFxuICAgIDxkaXY+XG4gICAgICA8SGVhZD5cbiAgICAgICAgPHRpdGxlPkVURiBTYXZpbmcgUGxhbiBIaXN0b3JpY2FsIFNpbXVsYXRvcjwvdGl0bGU+XG4gICAgICAgIDxsaW5rIHJlbD1cImljb25cIiBocmVmPVwiL2Zhdmljb24uaWNvXCIgLz5cbiAgICAgIDwvSGVhZD5cblxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cbiAgICAgICAgPGgxIGNsYXNzTmFtZT1cInRpdGxlXCI+RVRGIFNhdmluZyBQbGFuIEhpc3RvcmljYWwgU2ltdWxhdG9yPC9oMT5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJkZXRhaWxzQ29udGFpbmVyXCI+XG4gICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwiZGV0YWlsc0hlYWRsaW5lXCI+RnVuZDwvc3Bhbj5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZ1bmRTZWxlY3RvclwiPlxuICAgICAgICAgICAgPHNlbGVjdCB2YWx1ZT17ZnVuZEtleX0gb25DaGFuZ2U9eyhldmVudCkgPT4gc2V0RnVuZEtleShldmVudC50YXJnZXQudmFsdWUpfT5cbiAgICAgICAgICAgICAgeyBmdW5kcy5tYXAoZiA9PiAoXG4gICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT17Zi5rZXl9PntmLm5hbWV9PC9vcHRpb24+XG4gICAgICAgICAgICAgICkpfVxuICAgICAgICAgICAgPC9zZWxlY3Q+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPGRpdj48Yj5OYW1lOiA8L2I+PHNwYW4+e2RhdGFbZnVuZEtleV0ubmFtZX08L3NwYW4+PC9kaXY+XG4gICAgICAgICAgPGRpdj48Yj5FbnRyeSBGZWU6IDwvYj48c3Bhbj57ZGF0YVtmdW5kS2V5XS5lbnRyeUZlZX0lPC9zcGFuPjwvZGl2PlxuICAgICAgICAgIDxkaXY+PGI+TWFuYWdlbWVudCBGZWU6IDwvYj48c3Bhbj57ZGF0YVtmdW5kS2V5XS50b3RhbEV4cGVuc2VSYXRpb30lIHAuYTwvc3Bhbj48L2Rpdj5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY2FsY3VsYXRpb25TZXR0aW5nc1wiPlxuICAgICAgICAgIDxsYWJlbD5Nb250aGx5IENvbnRyaWJ1dGlvbjo8L2xhYmVsPlxuICAgICAgICAgIDxpbnB1dCB0eXBlPVwibnVtYmVyXCIgdmFsdWU9e21vbnRobHlEZXBvc2l0fSBvbkNoYW5nZT17KGV2ZW50KSA9PiBzZXRNb250aGx5RGVwb3NpdChldmVudC50YXJnZXQudmFsdWUpfSAvPlxuICAgICAgICAgIDxidXR0b24gb25DbGljaz17KCkgPT4gc2V0Q2FsY3VsYXRpb25zKGNhbGN1bGF0b3JTZXJ2aWNlLmNhbGN1bGF0ZShkYXRhW2Z1bmRLZXldLCBwYXJzZUludChtb250aGx5RGVwb3NpdCwgMTApKSl9PlxuICAgICAgICAgICAgQ2FsY3VsYXRlXG4gICAgICAgICAgPC9idXR0b24+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICB7IGNhbGN1bGF0aW9ucy5sZW5ndGggPiAwICYmXG4gICAgICAgICAgPHRhYmxlPlxuICAgICAgICAgICAgPHRyPlxuICAgICAgICAgICAgICA8dGg+RGF0ZTwvdGg+XG4gICAgICAgICAgICAgIDx0aD5UeXBlPC90aD5cbiAgICAgICAgICAgICAgPHRoPlNoYXJlcyBDaGFuZ2U8L3RoPlxuICAgICAgICAgICAgICA8dGg+VG90YWwgU2hhcmVzPC90aD5cbiAgICAgICAgICAgICAgPHRoPlRvdGFsIERlcG9zaXRlZDwvdGg+XG4gICAgICAgICAgICAgIDx0aD5Xb3J0aDwvdGg+XG4gICAgICAgICAgICAgIDx0aD5Hcm93dGg8L3RoPlxuICAgICAgICAgICAgPC90cj5cbiAgICAgICAgICAgIHsgY2FsY3VsYXRpb25zLm1hcChjYWxjdWxhdGlvbiA9PlxuICAgICAgICAgICAgPHRyIGNsYXNzTmFtZT17Y2FsY3VsYXRpb24udHlwZX0+XG4gICAgICAgICAgICAgIDx0ZD57Y2FsY3VsYXRpb24uZGF0ZS50b0lTT1N0cmluZygpLnN1YnN0cigwLCAxMCl9PC90ZD5cbiAgICAgICAgICAgICAgPHRkPntjYWxjdWxhdGlvbi50eXBlfXtjYWxjdWxhdGlvbi50eXBlID09PSAnc2hhcmVzJyA/IGAgQCAke2NhbGN1bGF0aW9uLnNoYXJlQW1vdW50fSBldXJvc2AgOiAnJ308L3RkPlxuICAgICAgICAgICAgICA8dGQ+e2NhbGN1bGF0aW9uLnNoYXJlQ2hhbmdlID4gMCA/ICcrJyA6ICcnfXtudW1iZXJXaXRoQ29tbWFzKGNhbGN1bGF0aW9uLnNoYXJlQ2hhbmdlLnRvRml4ZWQoMikpfTwvdGQ+XG4gICAgICAgICAgICAgIDx0ZD57bnVtYmVyV2l0aENvbW1hcyhjYWxjdWxhdGlvbi50b3RhbFNoYXJlcy50b0ZpeGVkKDIpKX08L3RkPlxuICAgICAgICAgICAgICA8dGQ+e251bWJlcldpdGhDb21tYXMoY2FsY3VsYXRpb24udG90YWxEZXBvc2l0ZWQudG9GaXhlZCgyKSl9IGV1cm9zPC90ZD5cbiAgICAgICAgICAgICAgPHRkPntudW1iZXJXaXRoQ29tbWFzKGNhbGN1bGF0aW9uLndvcnRoLnRvRml4ZWQoMikpfSBldXJvczwvdGQ+XG4gICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9e2NhbGN1bGF0aW9uLmdyb3d0aCA8IDAgPyAnbmVnYXRpdmUnIDogJ3Bvc2l0aXZlJ30+e2NhbGN1bGF0aW9uLmdyb3d0aC50b0ZpeGVkKDIpfSU8L3RkPlxuICAgICAgICAgICAgPC90cj5cbiAgICAgICAgICApfVxuICAgICAgICAgIDwvdGFibGU+XG4gICAgICAgIH1cbiAgICAgIDwvZGl2PlxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAuY29udGFpbmVyIHtcbiAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAgICAgICAgcGFkZGluZzogNDBweDtcbiAgICAgICAgICB3aWR0aDogOTAwcHg7XG4gICAgICAgICAgY29sb3I6ICMzMzM7XG4gICAgICAgIH1cbiAgICAgICAgLnRpdGxlIHtcbiAgICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgICAgbGluZS1oZWlnaHQ6IDEuMTU7XG4gICAgICAgICAgZm9udC1zaXplOiA0OHB4O1xuICAgICAgICB9XG4gICAgICAgIC50aXRsZSxcbiAgICAgICAgLmRlc2NyaXB0aW9uIHtcbiAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAgIH1cbiAgICAgICAgLmZ1bmRTZWxlY3RvciB7XG4gICAgICAgICAgcGFkZGluZzogMTBweCAwIDIwcHggMDtcbiAgICAgICAgfVxuICAgICAgICAuZGV0YWlsc0NvbnRhaW5lciB7XG4gICAgICAgICAgYWxpZ24taXRlbXM6IHN0YXJ0O1xuICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICAgICAgfVxuICAgICAgICAuZGV0YWlsc0hlYWRsaW5lIHtcbiAgICAgICAgICBmb250LXNpemU6IDIwcHg7XG4gICAgICAgICAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gICAgICAgICAgcGFkZGluZzogMTVweCAwO1xuICAgICAgICB9XG4gICAgICAgIC5jYWxjdWxhdGlvblNldHRpbmdzIHtcbiAgICAgICAgICBwYWRkaW5nOiAxNXB4IDA7XG4gICAgICAgIH1cbiAgICAgICAgLmNhbGN1bGF0aW9uU2V0dGluZ3MgbGFiZWwge1xuICAgICAgICAgIHBhZGRpbmctcmlnaHQ6IDEwcHg7XG4gICAgICAgIH1cbiAgICAgICAgLmNhbGN1bGF0aW9uU2V0dGluZ3MgaW5wdXQge1xuICAgICAgICAgIG1hcmdpbi1yaWdodDogMTBweDtcbiAgICAgICAgfVxuICAgICAgICB0cjpudGgtY2hpbGQoZXZlbikge2JhY2tncm91bmQ6ICNDQ0N9XG4gICAgICAgIHRyOm50aC1jaGlsZChvZGQpIHtiYWNrZ3JvdW5kOiAjRkZGfVxuICAgICAgICB0ci5tYW5hZ2VtZW50IHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiByZWQ7XG4gICAgICAgIH1cbiAgICAgICAgdHIuZGl2aWRlbmQge1xuICAgICAgICAgIGJhY2tncm91bmQ6IGxpZ2h0Ymx1ZTtcbiAgICAgICAgfVxuICAgICAgICB0ZCB7XG4gICAgICAgICAgcGFkZGluZzogMTBweDtcbiAgICAgICAgfVxuICAgICAgICB0ZC5uZWdhdGl2ZSB7XG4gICAgICAgICAgYmFja2dyb3VuZDogcmVkO1xuICAgICAgICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xuICAgICAgICB9XG4gICAgICAgIHRkLnBvc2l0aXZlIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiBncmVlbjtcbiAgICAgICAgICBjb2xvcjogd2hpdGU7XG4gICAgICAgICAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gICAgICAgIH1cbiAgICAgIGB9PC9zdHlsZT5cbiAgICA8L2Rpdj5cbiAgKTtcbn1cblxuZXhwb3J0IGRlZmF1bHQgSG9tZTtcbiJdfQ== */\n/*@ sourceURL=D:\\\\My Projects\\\\shares-saver-calculator\\\\pages\\\\index.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
