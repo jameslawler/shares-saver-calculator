@@ -1,7 +1,7 @@
-import asx from './asx';
-import dax from './dax';
+import IE00B1YZSC51 from "./IE00B1YZSC51";
+import IE00B3XXRP09 from "./IE00B3XXRP09";
 
 export default {
-  asx,
-  dax,
+  IE00B1YZSC51,
+  IE00B3XXRP09,
 };

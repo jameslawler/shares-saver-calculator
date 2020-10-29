@@ -1,16 +1,18 @@
-import React, { useState } from 'react';
-import Head from 'next/head';
+import React, { useState } from "react";
+import Head from "next/head";
 
-import data from '../data';
+import data from "../data";
 
-import calculatorService from '../services/calculatorService';
+import calculatorService from "../services/calculatorService";
 
-const getFundsList = () => Object.keys(data).map(key => ({
-  key,
-  name: data[key].name,
-}));
+const getFundsList = () =>
+  Object.keys(data).map((key) => ({
+    key,
+    name: data[key].name,
+  }));
 
-const numberWithCommas = (number) => number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+const numberWithCommas = (number) =>
+  number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 
 const Home = () => {
   const [monthlyDeposit, setMonthlyDeposit] = useState(100);
@@ -30,24 +32,49 @@ const Home = () => {
         <div className="detailsContainer">
           <span className="detailsHeadline">Fund</span>
           <div className="fundSelector">
-            <select value={fundKey} onChange={(event) => setFundKey(event.target.value)}>
-              { funds.map(f => (
+            <select
+              value={fundKey}
+              onChange={(event) => setFundKey(event.target.value)}
+            >
+              {funds.map((f) => (
                 <option value={f.key}>{f.name}</option>
               ))}
             </select>
           </div>
-          <div><b>Name: </b><span>{data[fundKey].name}</span></div>
-          <div><b>Entry Fee: </b><span>{data[fundKey].entryFee}%</span></div>
-          <div><b>Management Fee: </b><span>{data[fundKey].totalExpenseRatio}% p.a</span></div>
+          <div>
+            <b>Name: </b>
+            <span>{data[fundKey].name}</span>
+          </div>
+          <div>
+            <b>Entry Fee: </b>
+            <span>{data[fundKey].entryFee}%</span>
+          </div>
+          <div>
+            <b>Management Fee: </b>
+            <span>{data[fundKey].totalExpenseRatio}% p.a</span>
+          </div>
         </div>
         <div className="calculationSettings">
           <label>Monthly Contribution:</label>
-          <input type="number" value={monthlyDeposit} onChange={(event) => setMonthlyDeposit(event.target.value)} />
-          <button onClick={() => setCalculations(calculatorService.calculate(data[fundKey], parseInt(monthlyDeposit, 10)))}>
+          <input
+            type="number"
+            value={monthlyDeposit}
+            onChange={(event) => setMonthlyDeposit(event.target.value)}
+          />
+          <button
+            onClick={() =>
+              setCalculations(
+                calculatorService.calculate(
+                  data[fundKey],
+                  parseInt(monthlyDeposit, 10)
+                )
+              )
+            }
+          >
             Calculate
           </button>
         </div>
-        { calculations.length > 0 &&
+        {calculations.length > 0 && (
           <table>
             <tr>
               <th>Date</th>
@@ -58,19 +85,34 @@ const Home = () => {
               <th>Worth</th>
               <th>Growth</th>
             </tr>
-            { calculations.map(calculation =>
-            <tr className={calculation.type}>
-              <td>{calculation.date.toISOString().substr(0, 10)}</td>
-              <td>{calculation.type}{calculation.type === 'shares' ? ` @ ${calculation.shareAmount} euros` : ''}</td>
-              <td>{calculation.shareChange > 0 ? '+' : ''}{numberWithCommas(calculation.shareChange.toFixed(2))}</td>
-              <td>{numberWithCommas(calculation.totalShares.toFixed(2))}</td>
-              <td>{numberWithCommas(calculation.totalDeposited.toFixed(2))} euros</td>
-              <td>{numberWithCommas(calculation.worth.toFixed(2))} euros</td>
-              <td className={calculation.growth < 0 ? 'negative' : 'positive'}>{calculation.growth.toFixed(2)}%</td>
-            </tr>
-          )}
+            {calculations.map((calculation) => (
+              <tr className={calculation.type}>
+                <td>{calculation.date.toISOString().substr(0, 10)}</td>
+                <td>
+                  {calculation.type}
+                  {calculation.type === "shares"
+                    ? ` @ ${calculation.shareAmount} euros`
+                    : ""}
+                </td>
+                <td>
+                  {calculation.shareChange > 0 ? "+" : ""}
+                  {numberWithCommas(calculation.shareChange.toFixed(2))}
+                </td>
+                <td>{numberWithCommas(calculation.totalShares.toFixed(2))}</td>
+                <td>
+                  {numberWithCommas(calculation.totalDeposited.toFixed(2))}{" "}
+                  euros
+                </td>
+                <td>{numberWithCommas(calculation.worth.toFixed(2))} euros</td>
+                <td
+                  className={calculation.growth < 0 ? "negative" : "positive"}
+                >
+                  {calculation.growth.toFixed(2)}%
+                </td>
+              </tr>
+            ))}
           </table>
-        }
+        )}
       </div>
       <style jsx>{`
         .container {
@@ -112,8 +154,12 @@ const Home = () => {
         .calculationSettings input {
           margin-right: 10px;
         }
-        tr:nth-child(even) {background: #CCC}
-        tr:nth-child(odd) {background: #FFF}
+        tr:nth-child(even) {
+          background: #ccc;
+        }
+        tr:nth-child(odd) {
+          background: #fff;
+        }
         tr.management {
           background: red;
         }
@@ -135,6 +181,6 @@ const Home = () => {
       `}</style>
     </div>
   );
-}
+};
 
 export default Home;
